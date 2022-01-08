@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Fjalla One';
+    background: url('../images/black-and-white-door-view.jpeg') center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 10px;
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+h1,
+h2 {
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+#container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0rem auto;
+}
+
+
+
+#page-container {
+    text-align: center;
+    padding: 1.5rem 3rem;
+    border: 0.5rem solid antiquewhite;
+    background-color: rgb(20, 20, 20, 0.75);
+    border-radius: 2%;
+
+}
+
+#page-container p {
+    font-size: 1.25rem;
+}
+
+.title {
+    padding-bottom: 2rem;
+
+}
+
+.quiz-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 6rem;
+    text-align: center;
+    border: 0.5rem solid antiquewhite;
+    background-color: rgb(78, 78, 78, 0.75);
+    border-radius: 2%;
+    max-width: 40rem;
+    margin: 3rem auto;
+    text-decoration: none;
+}
