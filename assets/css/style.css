@@ -33,12 +33,11 @@ h2 {
 }
 
 
-
 #page-container {
     text-align: center;
     padding: 1.5rem 3rem;
     border: 0.5rem solid antiquewhite;
-    background-color: rgb(20, 20, 20, 0.75);
+    background-color: rgb(78, 78, 78, 0.75);
     border-radius: 2%;
 
 }
