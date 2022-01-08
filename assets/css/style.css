@@ -64,3 +64,21 @@ h2 {
     margin: 3rem auto;
     text-decoration: none;
 }
+
+/* add box shadowing to buttons */
+
+.btn {
+    color: antiquewhite;
+    font-size: 1.25rem;
+    letter-spacing: 1.5px;
+    border: 0.25rem solid antiquewhite;
+    background-color: rgb(107, 9, 9);
+    border-radius: 5%;
+    padding: 0.5rem;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
