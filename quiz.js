@@ -59,3 +59,20 @@ let questions = [{
     }
 
 ]
+
+// Constants
+
+const CORRECT_COUNTER = 1;
+// (Dont forget to add remaining questions)
+const MAX_QUESTIONS = 6;
+
+startGame = () => {
+    questionCounter = 0;
+    score = 0;
+    availableQuestions = [...questions];
+    console.log(availableQuestions);
+    getNewQuestion();
+};
+
+
+startGame();
