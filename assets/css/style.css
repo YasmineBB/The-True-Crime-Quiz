@@ -131,3 +131,15 @@ h2 {
     width: 100%;
 
 }
+
+#hud {
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem 0;
+}
+
+.hud-prefix {
+    text-align: center;
+
+    letter-spacing: 1px;
+}
