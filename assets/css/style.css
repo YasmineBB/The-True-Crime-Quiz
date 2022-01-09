@@ -155,6 +155,16 @@ h2 {
     transition: ;
 }
 
+/* ClassToApply - if question is answered correctly or incorrectly */
+
+.correct {
+    background-color: green;
+}
+
+.incorrect {
+    background-color: red;
+}
+
 /* End page */
 
 #end-page {
