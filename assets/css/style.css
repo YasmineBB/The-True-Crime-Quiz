@@ -132,6 +132,8 @@ h2 {
 
 }
 
+/* HUD - Score and question counter */
+
 #hud {
     display: flex;
     justify-content: space-between;
@@ -140,6 +142,15 @@ h2 {
 
 .hud-prefix {
     text-align: center;
-
     letter-spacing: 1px;
+}
+
+.hud-main-text {
+    padding-top: 0.75rem;
+    text-align: center;
+}
+
+#score {
+    /*color: rgb(8, 143, 8);*/
+    transition: ;
 }
