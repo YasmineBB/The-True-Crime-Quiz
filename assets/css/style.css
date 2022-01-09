@@ -154,3 +154,48 @@ h2 {
     /*color: rgb(8, 143, 8);*/
     transition: ;
 }
+
+/* End page */
+
+#end-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem auto;
+    text-align: center;
+    padding: 1.5rem 3rem;
+    border: 0.5rem solid antiquewhite;
+    background-color: rgb(78, 78, 78, 0.75);
+    border-radius: 2%;
+}
+
+#username {
+    padding: 10px;
+    font-size: 1.5rem;
+    text-align: center;
+    letter-spacing: 1.5px;
+    border: 0.4rem solid rgb(107, 9, 9);
+    border-radius: 2%;
+    background-color: white;
+    opacity: 0.75;
+    /*background-color: rgb(78, 78, 78, 0.75);*/
+    color: rgb(107, 9, 9);
+}
+
+.end-page-message {
+    padding: 2rem;
+}
+
+.end-page-btn {
+    margin: 1rem auto;
+    padding: 0.5rem 1rem;
+    s font-size: 1.5rem;
+}
+
+#saveScoreBtn {
+    margin-top: 2.5rem;
+    margin-bottom: 3rem;
+    border-radius: 50%;
+    padding: 1rem 2rem;
+}
