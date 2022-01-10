@@ -36,7 +36,7 @@ h2 {
 
 .page-container {
     text-align: center;
-    padding: 1.5rem 3rem;
+    padding: 1.5rem;
     border: 0.5rem solid antiquewhite;
     background-color: rgb(78, 78, 78, 0.85);
     border-radius: 2%;
@@ -231,6 +231,6 @@ h2 {
     }
 
     .hud-main-text {
-        font-size: 1.5rem;
+        font-size: 1.25rem;
     }
 }
