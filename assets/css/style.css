@@ -51,6 +51,7 @@ h2 {
 
 }
 
+/*
 .quiz-title {
     display: flex;
     justify-content: center;
@@ -64,6 +65,7 @@ h2 {
     margin: 3rem auto;
     text-decoration: none;
 }
+*/
 
 /* add box shadowing to buttons */
 
@@ -200,7 +202,7 @@ h2 {
 .end-page-btn {
     margin: 1rem auto;
     padding: 0.5rem 1rem;
-    s font-size: 1.5rem;
+    font-size: 1.5rem;
 }
 
 #saveScoreBtn {
