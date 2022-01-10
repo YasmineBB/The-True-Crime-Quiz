@@ -28,12 +28,12 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 80rem;
+    max-width: 80%;
     margin: 0rem auto;
 }
 
 
-#page-container {
+.page-container {
     text-align: center;
     padding: 1.5rem 3rem;
     border: 0.5rem solid antiquewhite;
@@ -42,7 +42,7 @@ h2 {
 
 }
 
-#page-container p {
+.page-container p {
     font-size: 1.25rem;
 }
 
@@ -208,4 +208,18 @@ h2 {
     margin-bottom: 3rem;
     border-radius: 50%;
     padding: 1rem 2rem;
+}
+
+/* Media queries */
+
+@media screen and (max-width: 576px) {
+
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .choice-container p {
+        font-size: 1rem;
+    }
 }
