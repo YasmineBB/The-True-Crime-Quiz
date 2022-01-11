@@ -111,6 +111,8 @@ In order to clone the project, the following steps are to be followed:
 
 ## Credits
 
+### Code
+
 ### Technologies Used
 - [Github](www.github.com) was used to create the repository and deploy the site.
 - [VSCode](https://code.visualstudio.com/) was used to practice, build and develop code.

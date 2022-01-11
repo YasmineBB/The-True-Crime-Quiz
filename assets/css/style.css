@@ -135,6 +135,12 @@ h2 {
 
 }
 
+#question {
+    text-align: left;
+    letter-spacing: normal;
+    line-height: 1.5em;
+}
+
 /* HUD - Score and question counter */
 
 #hud {
@@ -216,6 +222,10 @@ h2 {
 /* Media queries */
 
 @media screen and (max-width: 576px) {
+
+    .page-container {
+        height: 90vh;
+    }
 
 
     h2 {

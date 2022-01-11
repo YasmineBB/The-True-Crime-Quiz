@@ -9,6 +9,9 @@ let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
 
+let correctCounter = 1;
+const maxQuestions = 6;
+
 let questions = [{
         question: 'What did John Wayne Gacy request to have for his last meal?',
         choice1: 'Two pints of mint chocolate chip ice cream',
@@ -59,17 +62,13 @@ let questions = [{
     }
 
 ]
-
-// Constants
-
-const CORRECT_COUNTER = 1;
 // (Dont forget to add remaining questions)
-const MAX_QUESTIONS = 6;
+
 
 startGame = () => {
     questionCounter = 0;
     score = 0;
-    availableQuestions = [...questions];
+    availableQuestions = questions;
     console.log(availableQuestions);
     getNewQuestion();
 };
@@ -77,12 +76,12 @@ startGame = () => {
 getNewQuestion = () => {
 
     /* DOUBLE CHECK, DIDNT INPUT AT FIRST*/
-    if (availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
+    if (availableQuestions.length === 0 || questionCounter > maxQuestions) {
         return window.location.assign('./end-page.html');
     }
 
     questionCounter++;
-    questionCounterText.innerText = `${questionCounter} / ${MAX_QUESTIONS}`;
+    questionCounterText.innerText = `${questionCounter} / ${maxQuestions}`;
 
     const questionIndex = Math.floor(Math.random() * availableQuestions.length);
     currentQuestion = availableQuestions[questionIndex];
@@ -107,15 +106,12 @@ choices.forEach(choice => {
         const selectedChoice = e.target;
         const selectedAnswer = selectedChoice.dataset['number'];
 
-        let classToApply = 'incorrect';
-        if (selectedAnswer == currentQuestion.answer) {
-            classToApply = 'correct';
-        }
-
-        // or let classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect';
-        //
+        let classToApply;
+        
+        selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect';
+        
         if (classToApply === 'correct') {
-            incrementScore(CORRECT_COUNTER)
+            incrementScore(correctCounter)
         }
 
         selectedChoice.parentElement.classList.add(classToApply);
