@@ -62,6 +62,8 @@ let questions = [{
     }
 
 ]
+
+
 // (Dont forget to add remaining questions)
 
 
@@ -72,6 +74,7 @@ startGame = () => {
     console.log(availableQuestions);
     getNewQuestion();
 };
+
 
 getNewQuestion = () => {
 
