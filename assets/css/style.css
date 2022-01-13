@@ -219,10 +219,14 @@ h2 {
     color: antiquewhite;
 }
 
-.end-page-message {
+.end-page-results {
     justify-content: center;
     font-family: 'open sans condensed';
+}
 
+#congrats-message {
+    letter-spacing: 1.5px;
+    font-size: 1.5rem;
 }
 
 /*.end-page-btn {
@@ -234,11 +238,12 @@ h2 {
 #saveScoreBtn {
     margin: 2rem auto;
     border-radius: 50%;
-    padding: 1rem 2rem;
+    /*padding: 1rem 2rem;*/
     font-family: 'Fjalla One';
+    font-size: 1rem;
     color: antiquewhite;
     background-color: rgb(107, 9, 9);
-    border: 0.25rem solid antiquewhite
+    border: 0.25rem solid antiquewhite;
 }
 
 #final-score {
@@ -297,5 +302,10 @@ h2 {
 
     .hud-main-text {
         font-size: 1.25rem;
+    }
+
+    .social-networks i {
+        padding: 0.5rem;
+        margin: 1rem;
     }
 }
