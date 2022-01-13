@@ -24,6 +24,7 @@ h2 {
 }
 
 #container {
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -155,6 +156,7 @@ h2 {
 .hud-prefix {
     text-align: center;
     letter-spacing: 1px;
+    font-family: 'Open Sans Condensed';
 }
 
 .hud-main-text {
@@ -177,13 +179,13 @@ h2 {
     background-color: #FF0000;
 }
 
+/* Sweet alert styling */
+
 .swal-text {
     color: #FAEBD7;
 }
 
-.swal-title {
-    color: #FAEBD7;
-}
+
 
 /* End page */
 
@@ -217,7 +219,7 @@ h2 {
 
 .end-page-results {
     justify-content: center;
-    font-family: 'open sans condensed';
+    font-family: 'Open Sans Condensed';
 }
 
 #congrats-message {
@@ -286,6 +288,10 @@ h2 {
 
     h2 {
         font-size: 1.5rem;
+    }
+
+    #question {
+        font-size: 1.75rem;
     }
 
     .choice-container p {

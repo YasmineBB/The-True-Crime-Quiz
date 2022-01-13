@@ -116,14 +116,10 @@ choices.forEach(choice => {
         if (classToApply === 'correct') {
             incrementScore(correctCounter)
             Swal.fire({
-                customClass: {
-                    title: 'swal-title',
-                    text: 'swal-text',
-                    icon: 'swal-icon'
-                },
+                color: '#FAEBD7',
                 icon: 'success',
                 title: 'Correct',
-                text: 'You really know your stuff',
+                text: 'You really know your stuff! 😎',
                 timer: 2000,
                 background: '#33CC00',
                 showConfirmButton: false
@@ -131,14 +127,10 @@ choices.forEach(choice => {
             })
         } else if (classToApply === 'incorrect') {
             Swal.fire({
-                customClass: {
-                    title: 'swal-title',
-                    text: 'swal-text',
-                    icon: 'swal-icon'
-                },
                 icon: 'error',
-                title: 'Oops, that was incorrect',
-                text: "But keep playing and you'll sure find out",
+                title: 'Oops, that was incorrect...💀',
+                text: "But keep playing and you'll sure find out!",
+                color: '#FAEBD7',
                 timer: 2000,
                 background: '#FF0000',
                 showConfirmButton: false
