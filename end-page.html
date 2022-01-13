@@ -17,21 +17,21 @@
 </head>
 
 <body>
-    <div>
-        <h1 class="quiz-title">The True Crime Quiz</h1>
-    </div>
     <div id="container">
-        <div id='end-page'>
-            <h1 class='end-page-message'>Congratulations on completing the quiz!</h1>
-            <h2>You scored:</h2>
-            <h2 id="final-score">0</h2>
-            <form>
-                <input type='text' name="username" id="username" placeholder="username">
-                <button type="submit" class="btn end-page-btn" id='saveScoreBtn'
-                    onClick="saveHighScores(event)">Save</button>
-            </form>
+        <div class='page-container'>
+            <h1 class="title">The True Crime Quiz</h1>
+            <div class='end-page-message'>
+                <p>Congratulations on completing the quiz!<p>
+                        <p>You scored:</p>
+                        <p id="final-score">0</p>
+                        <form>
+                            <input type='text' name="username" id="username" placeholder="username">
+                            <button type="submit" class="btn end-page-btn" id='saveScoreBtn'
+                                onClick="saveHighScores(event)">Save</button>
+                        </form>
+            </div>
 
-            <div class="page-container">
+            <div>
                 <a class="btn end-page-btn" href="./quiz.html">Replay</a>
                 <a class="btn end-page-btn" href="./index.html"> Home</a>
             </div>

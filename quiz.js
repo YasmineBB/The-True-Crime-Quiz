@@ -107,14 +107,45 @@ choices.forEach(choice => {
         const selectedAnswer = selectedChoice.dataset['number'];
 
         let classToApply;
-        
-        selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect';
-        
+
+        selectedAnswer == currentQuestion.answer ? classToApply = 'correct' : classToApply = 'incorrect';
+
         if (classToApply === 'correct') {
             incrementScore(correctCounter)
-        }
+            Swal.fire({
+                customClass: {
+                    title: 'swal-title',
+                    text: 'swal-text',
+                    icon: 'swal-icon'
+                },
+                icon: 'success',
+                title: 'Correct',
+                text: 'You really know your stuff',
+                timer: 2000,
+                background: '#33CC00',
+                showConfirmButton: false
+
+            })
+        } else if (classToApply === 'incorrect') {
+            Swal.fire({
+                customClass: {
+                    title: 'swal-title',
+                    text: 'swal-text',
+                    icon: 'swal-icon'
+                },
+                icon: 'error',
+                title: 'Oops, that was incorrect',
+                text: "But keep playing and you'll sure find out",
+                timer: 2000,
+                background: '#FF0000',
+                showConfirmButton: false
+
+            });
+        };
 
         selectedChoice.parentElement.classList.add(classToApply);
+
+
 
         setTimeout(() => {
             selectedChoice.parentElement.classList.remove(classToApply);
