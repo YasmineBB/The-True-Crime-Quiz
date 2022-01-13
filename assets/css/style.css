@@ -24,8 +24,6 @@ h2 {
 }
 
 #container {
-    width: 100vw;
-    height: 120vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,8 +39,6 @@ h2 {
     border: 0.5rem solid antiquewhite;
     background-color: rgb(78, 78, 78, 0.85);
     border-radius: 2%;
-
-
 }
 
 .page-container p {
