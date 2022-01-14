@@ -1,5 +1,9 @@
 # **The True Crime Quiz**
 
+True Crime. <!--is a topic that, however dubious, is a fascinating world for many people.--> Is it a morbid fascination? Simple human curiosity? Or is there something more<!--some sort of psychological reasoning--> to societies obsession with True Crime? Who knows.
+There are countless podcasts and YouTube channels, blog posts and documentaries dedicated to pretty much every case, theory and criminal. We can't get enough.
+Clearly, I am a member of the weirdly obsessed with True Crime club. So I decided to build a quiz based around the topic!
+
 ## Table of Contents
 
   - [User Experience](#user-experience)
@@ -49,15 +53,35 @@
 ## Design
 
 ### Colour Scheme
-The colour scheme I have chosen for the quiz is overall darker tones with a lighter colour for maximum user accessibility.
+The colour scheme I have chosen for the quiz is overall darker tones with a lighter colour for maximum user accessibility. A shade of red of course thrown in to the mix.
+
+
+![Colour Scheme](./assets/images/README%20Images/coolers-colour-palette.png)
+
+#### Accessibility
+
 ### Typography 
+
+I have chosen two fonts to use across the site; 'Fjalla One', which is a medium-contrast display sans serif, and 'Open Sans Condensed'. Both taken from Google Fonts. Fjalla One is used for the majority of headings and buttons and Open Sans Condensed for all other text on the site.
+
 ### Images
+
+There are of course many themes to use for the topic of True Crime, but I decided to choose a dark and eerie image as the background for the whole site to coincide with the theme of True Crime, without being too specific! The contrast between the dark image is clear with the colour scheme used for the quiz to ensure good accessibility for all users. 
+
+![Background Image](assets/images/black-and-white-door-view.jpeg)
 
 ## Features
 
-### Home Screen
+### Home Page
+
+I designed a simple homepage with the title of the quiz, three buttons: Start Quiz, High Scores and How to Play. I have created a modal box that pops up when the button ‘How To Play’ is clicked on and explains the quiz to the user. 
+
+The simplicity aims to make it clean and unfussy to the user, giving them clear access to see the function of the page whilst giving all relevant information they will need, including where to start and how to play.
+
 ### Quiz Page
-### End of Quiz Screen
+
+### End of Quiz Page
+Upon completing the quiz, the user is taken to the end page which displays their final score. 
 
 ### How to Play
 
@@ -65,11 +89,16 @@ The colour scheme I have chosen for the quiz is overall darker tones with a ligh
 
 ### Validator Testing
 
+- **HTML**
+- **CSS**
+- **Javascript**
+
 ### Google Dev Tools - Lighthouse Testing
 
 ### Mobile and Desktop Testing
 
 ### Responsiveness
+To ensure the site is responsive across all screen sizes, I have added some media queries
 
 ### Bugs
 
@@ -110,17 +139,28 @@ In order to clone the project, the following steps are to be followed:
 8. Click 'Enter'.
 
 ## Credits
+Throughout the course of this project, I have used a wide range of online resources to help me understand Javascript, as I have found it very challenging to grasp a strong comprehension of and it has been a huge step up from CSS and HTML.
+
+I utilised the many resources available on Youtube to help build my understanding of Javascript and to help build the quiz. I used resources such as Stack Overflow and the Javascript module on Codecademy, using the run through projects to help improve my understanding.
 
 ### Code
+
+- Code for the quiz was taken from the [Build a Quiz Playlist](https://www.youtube.com/watch?v=jfOv18lCMmw&list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx&index=10) from James Q Quick. 
+- Code for how to create a pop-up modal was taken from the [Create a Modal (Popup) with HTML/CSS and JavaScript](https://www.youtube.com/watch?v=XH5OW46yO8I) YouTube video from Florin Pop.
 
 ### Technologies Used
 - [Github](www.github.com) was used to create the repository and deploy the site.
 - [VSCode](https://code.visualstudio.com/) was used to practice, build and develop code.
-- The font used on the site was taken from [Google Fonts](https://fonts.google.com/).
-- The colour scheme was generated using [Coolers](https://coolors.co/).
+- The fonts used on the site were taken from [Google Fonts](https://fonts.google.com/).
+- The colour scheme was generated using [Coolors](https://coolors.co/).
 - The Favicon created for the site was made on [Favicon](https://favicon.io/).
+- [Animate](https://animate.style/) library was used for some custom CSS animation styling.
+- Custom pop up boxed were sourced from [sweetalert](https://sweetalert2.github.io/#custom-class).
+- Emojis used in the quiz were sourced from [Emojipedia](https://emojipedia.org/).
+- 
 
 
 ### Media
 
-### Content
+The background image used on the site was taken from [Pexels](https://www.pexels.com/photo/black-wooden-door-frame-745054/).
+
