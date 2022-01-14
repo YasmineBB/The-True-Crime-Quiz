@@ -3,6 +3,9 @@ const choices = Array.from(document.getElementsByClassName('choice-text'));
 const questionCounterText = document.getElementById('question-counter');
 const scoreText = document.getElementById('score');
 
+// Modal - not showing choice text when code for modal is placed on this page??
+
+
 let currentQuestion = {};
 let acceptingAnswers = false;
 let score = 0;
@@ -11,6 +14,7 @@ let availableQuestions = [];
 
 let correctCounter = 1;
 const maxQuestions = 6;
+
 
 let questions = [{
         question: 'What did John Wayne Gacy request to have for his last meal?',

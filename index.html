@@ -19,14 +19,29 @@
     <div id="container">
         <div class="page-container">
             <h1 class="title animate__animated animate__zoomIn">The True Crime Quiz</h1>
-            <button class="how-to">How to Play</button>
+            <button id="open" class="btn">How to Play</button>
+            <div class="modal-container" id="modal-container">
+                <div class="modal">
+                    <h2>How to Play</h2>
+                    <p>Welcome to The True Crime Quiz, where your knowledge of True Crime will be put to the test!</p>
+                    <br>
+                    <p>Think you know your Ed Kempers from your Ted Bundys?</p><br>
+                    <p>Make your way through these 15 carefully curated questions and you'll soon find out!
+                    </p><br>
+                    <p>Once completed, enter you username and challenge your self, friends and family to beat your
+                        score!</p><br>
+                    <p>Let's go!</p>
+
+                    <button id='close' class="btn">Close</button>
+                </div>
+            </div>
             <a class="btn start-btn" href="./quiz.html">Start Quiz</a>
             <a class="btn start-btn" href="#">High Scores</a>
 
         </div>
     </div>
 
-
+    <script src="./how-to.js"></script>
 </body>
 
 </html>

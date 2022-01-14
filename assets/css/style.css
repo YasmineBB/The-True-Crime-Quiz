@@ -74,6 +74,7 @@ h2 {
 .btn {
     color: antiquewhite;
     font-size: 1.25rem;
+    font-family: inherit;
     letter-spacing: 1.5px;
     border: 0.25rem solid antiquewhite;
     background-color: rgb(107, 9, 9);
@@ -88,7 +89,63 @@ h2 {
     text-align: center;
 }
 
-.start-btn {}
+/* Modal */
+
+.modal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(250, 235, 215, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.modal-container.show {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.modal {
+    background-color: rgb(78, 78, 78);
+    width: 90vw;
+    height: 55vh;
+    max-width: 90%;
+    padding: 2rem;
+    border: 0.25rem solid rgb(107, 9, 9);
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgb(107, 9, 9, 0.2);
+}
+
+.modal h2 {
+    color: rgb(250, 235, 215);
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.modal p {
+    font-family: 'Open Sans Condensed';
+    padding: 0.5rem;
+}
+
+.modal li {
+    padding-top: 2rem;
+    font-family: 'Open Sans Condensed';
+    display: inline;
+    font-size: 1rem;
+    line-height: 2rem;
+}
+
+#close {
+    display: inline;
+}
+
+
 
 /* Quiz page */
 
