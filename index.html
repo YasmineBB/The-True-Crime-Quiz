@@ -36,12 +36,21 @@
                 </div>
             </div>
             <a class="btn start-btn" href="./quiz.html">Start Quiz</a>
-            <a class="btn start-btn" href="#">High Scores</a>
+            <button id="open" class="btn">High Scores</button>
+            <div class="modal-container" id="modal-container">
+                <div id='high-scores' class="modal">
+                    <h2 id="final-score">How to Play</h2>
+                    <ul id='high-scores-list'></ul>
 
+                    <button id='close' class="btn">Close</button>
+                </div>
+                <a class="btn start-btn" href="#">High Scores</a>
+
+            </div>
         </div>
-    </div>
 
-    <script src="./how-to.js"></script>
+        <script src="./how-to.js"></script>
+        <script src="./high-scores.js"></script>
 </body>
 
 </html>
