@@ -53,6 +53,14 @@ h2 {
     border-radius: 2%;
 }
 
+.high-scores-container {
+    text-align: center;
+    padding: 1.5rem;
+    border: 0.5rem solid antiquewhite;
+    background-color: rgb(78, 78, 78);
+    border-radius: 2%;
+}
+
 .page-container p {
     font-size: 1.25rem;
     padding: 0.5rem;
@@ -154,6 +162,10 @@ h2 {
 
 #close {
     display: inline;
+}
+
+.hide {
+    display: none;
 }
 
 
@@ -316,6 +328,29 @@ h2 {
     font-family: 'Fjalla One';
     font-size: 2rem;
 }
+
+/* High scores */
+
+#highScoresList {
+    display: inline-block;
+    font-size: 1.5rem;
+    font-family: 'Open Sans Condensed';
+}
+
+
+#highScoresList li {
+    padding: 0.5rem;
+}
+
+#highScores .btn {
+    margin-top: 3rem;
+}
+
+.high-score-title {
+    font-family: 'Open Sans Condensed';
+    font-size: 2.5rem;
+}
+
 
 /* Social networks */
 

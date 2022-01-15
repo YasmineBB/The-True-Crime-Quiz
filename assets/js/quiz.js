@@ -70,8 +70,10 @@ let questions = [{
 
 // (Dont forget to add remaining questions)
 
-
-startGame = () => {
+/**
+ * Starts the game
+ */
+function startGame() {
     questionCounter = 0;
     score = 0;
     availableQuestions = questions;
@@ -79,8 +81,11 @@ startGame = () => {
     getNewQuestion();
 };
 
+/**
+ * Gets new question
+ */
 
-getNewQuestion = () => {
+function getNewQuestion() {
 
     /* DOUBLE CHECK, DIDNT INPUT AT FIRST*/
     if (availableQuestions.length === 0 || questionCounter > maxQuestions) {
@@ -155,7 +160,11 @@ choices.forEach(choice => {
     });
 });
 
-incrementScore = num => {
+/**
+ * Increments score
+ */
+
+function incrementScore(num) {
     score += num;
     scoreText.innerText = score;
 }

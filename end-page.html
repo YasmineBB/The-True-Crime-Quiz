@@ -24,10 +24,10 @@
             <div class='end-page-results'>
                 <p id="congrats-message">Congratulations on completing the quiz!<p>
                         <p>You scored:</p>
-                        <p id="final-score"></p>
+                        <p id="finalScore"></p>
                         <p>Enter your username to save your score!</p>
                         <form>
-                            <input type='text' name="username" id="username" placeholder="username" required>
+                            <input type='text' name="username" id="username" placeholder="username">
                             <button type="submit" class="btn end-page-btn" id='saveScoreBtn'
                                 onClick="saveHighScore(event)" disabled>Save</button>
                         </form>
@@ -66,8 +66,8 @@
     </div>
 
 
-    <script src="./quiz.js"></script>
-    <script src="./end-page.js"></script>
+
+    <script src="./assets/js/end-page.js"></script>
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 

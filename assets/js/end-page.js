@@ -1,6 +1,6 @@
 const username = document.getElementById('username');
 const saveScoreBtn = document.getElementById('saveScoreBtn');
-const finalScore = document.getElementById('final-score');
+const finalScore = document.getElementById('finalScore');
 // To get most recent score
 const mostRecentScore = localStorage.getItem('mostRecentScore');
 
@@ -38,7 +38,7 @@ saveHighScore = (e) => {
     e.preventDefault();
 
     const score = {
-        score: Math.floor(Math.random() * 100),
+        score: mostRecentScore,
         name: username.value
     };
     highScores.push(score);
