@@ -62,7 +62,7 @@ h2 {
 }
 
 .page-container p {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     padding: 0.5rem;
 }
 
@@ -287,7 +287,7 @@ h2 {
     font-family: inherit;
     margin-top: 1rem;
     padding: 10px;
-    font-size: 1rem;
+    font-size: 1.5rem;
     text-align: center;
     letter-spacing: 1.5px;
     border: 0.4rem solid rgb(107, 9, 9);
@@ -306,6 +306,7 @@ h2 {
 #congrats-message {
     letter-spacing: 1.5px;
     font-size: 1.5rem;
+    padding-top: 1rem;
 }
 
 /*.end-page-btn {
@@ -328,6 +329,10 @@ h2 {
 #finalScore {
     font-family: 'Fjalla One';
     font-size: 2rem;
+}
+
+.share-socials {
+    font-family: 'Open Sans Condensed';
 }
 
 /* High scores */
@@ -388,6 +393,10 @@ h2 {
     #container {
         max-height: 90%;
         max-width: 90%;
+    }
+
+    .title {
+        font-size: 1.75rem;
     }
 
 
