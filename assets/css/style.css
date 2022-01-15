@@ -223,6 +223,7 @@ h2 {
     text-align: left;
     letter-spacing: normal;
     line-height: 1.5em;
+    font-size: 1.75rem;
 }
 
 /* HUD - Score and question counter */
@@ -230,7 +231,7 @@ h2 {
 #hud {
     display: flex;
     justify-content: space-between;
-    margin: 3rem 0;
+    margin: 2rem 0;
 }
 
 .hud-prefix {
@@ -324,7 +325,7 @@ h2 {
     border: 0.25rem solid antiquewhite;
 }
 
-#final-score {
+#finalScore {
     font-family: 'Fjalla One';
     font-size: 2rem;
 }
@@ -390,16 +391,20 @@ h2 {
     }
 
 
-    h2 {
+    /*h2 {
         font-size: 1.5rem;
-    }
+    }*/
 
     #question {
-        font-size: 1.75rem;
+        font-size: 1.25rem;
     }
 
     .choice-container p {
         font-size: 1rem;
+    }
+
+    #hud {
+        margin: 1rem 0;
     }
 
     .hud-prefix {
