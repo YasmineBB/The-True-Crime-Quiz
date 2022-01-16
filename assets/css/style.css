@@ -433,11 +433,12 @@ h2 {
         padding: 0.5rem;
         margin: 1rem;
     }
+
+    .page-container {
+        transform: scale(.9);
+    }
 }
 
-.page-container {
-    transform: scale(.9);
-}
 
 @media screen and (max-width: 400px) {
     .page-container {
