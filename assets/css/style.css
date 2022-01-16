@@ -443,6 +443,6 @@ h2 {
 
 @media screen and (max-width: 320px) {
     .page-container {
-        transform: scale(.8);
+        transform: scale(.5);
     }
 }
