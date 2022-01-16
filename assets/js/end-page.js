@@ -20,11 +20,11 @@ saveHighScore = (e) => {
 
     Swal.fire({
         icon: 'success',
-        title: 'Your score has been saved 👏',
+        title: 'Your score has been saved <br> 👏 <br> Why not challenge your score or share with friends and family!',
         background: 'rgb(78, 78, 78)',
         color: 'rgb(250, 235, 215)',
         showConfirmButton: false,
-        timer: 2500
+        timer: 3000
     })
     /*Swal.fire({
         color: 'rgb(107, 9, 9)',

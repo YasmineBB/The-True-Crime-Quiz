@@ -126,7 +126,7 @@ choices.forEach(choice => {
         if (classToApply === 'correct') {
             incrementScore(correctCounter)
             Swal.fire({
-                color: '#FAEBD7',
+                color: '#201d1d',
                 icon: 'success',
                 title: 'Correct',
                 text: 'You really know your stuff! 😎',
@@ -140,9 +140,9 @@ choices.forEach(choice => {
                 icon: 'error',
                 title: 'Oops, that was incorrect...💀',
                 text: "But keep playing and you'll sure find out!",
-                color: '#FAEBD7',
+                color: '#fefefe',
                 timer: 2000,
-                background: '#FF0000',
+                background: '#b50000',
                 showConfirmButton: false
 
             });

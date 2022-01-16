@@ -262,13 +262,14 @@ h2 {
 }
 
 .incorrect {
-    background-color: #FF0000;
+    background-color: #b50000;
 }
 
 /* Sweet alert styling */
 
 .swal-text {
-    color: #FAEBD7;
+    /*color: #FAEBD7;*/
+    /*color: #fefefe;*/
 }
 
 

@@ -1,8 +1,11 @@
 # **The True Crime Quiz**
+![Homepage Image](assets/screenshots/am-i-responsive.png)
 
-True Crime. <!--is a topic that, however dubious, is a fascinating world for many people.--> Is it a morbid fascination? Simple human curiosity? Or is there something more<!--some sort of psychological reasoning--> to societies obsession with True Crime? Who knows.
-There are countless podcasts and YouTube channels, blog posts and documentaries dedicated to pretty much every case, theory and criminal. We can't get enough.
-Clearly, I am a member of the weirdly obsessed with True Crime club. So I decided to build a quiz based around the topic!
+<!--True Crime. is a topic that, however dubious, is a fascinating world for many people.--> 
+Is it morbid fascination, simple human curiosity or is there something more to societies obsession with True Crime? <!--A morbid fascination? Simple human curiosity? Or is there something more....some sort of psychological reasoning ... to societies obsession with True Crime?--> Who knows, but he countless podcasts and YouTube channels, blog posts and documentaries dedicated to pretty much every case, theory and criminal shows we clearly can't get enough.
+And as this project may suggest, I too am a member of the weirdly obsessed with True Crime club. So I decided to build a quiz based on the topic for my PP2 with Code Institute!  
+
+The True Crime Quiz has a selection of questions to test the user's knowledge and to hopefully impart something new to add to their True Crime knowledge bank. The top five scores are saved so the user can challenge themselves, friends or family to make it to the scoreboard.
 
 ## Table of Contents
 
@@ -53,20 +56,19 @@ Clearly, I am a member of the weirdly obsessed with True Crime club. So I decide
 ## Design
 
 ### Colour Scheme
-The colour scheme I have chosen for the quiz is overall darker tones with a lighter colour for maximum user accessibility. A shade of red of course thrown in to the mix.
+The colour scheme I have chosen for the quiz is overall darker tones with a lighter colour for maximum user accessibility.
 
 
 ![Colour Scheme](./assets/images/README%20Images/coolers-colour-palette.png)
 
-#### Accessibility
 
-### Typography 
+### Typography
 
 I have chosen two fonts to use across the site; 'Fjalla One', which is a medium-contrast display sans serif, and 'Open Sans Condensed'. Both taken from Google Fonts. Fjalla One is used for the majority of headings and buttons and Open Sans Condensed for all other text on the site.
 
 ### Images
 
-There are of course many themes to use for the topic of True Crime, but I decided to choose a dark and eerie image as the background for the whole site to coincide with the theme of True Crime, without being too specific! The contrast between the dark image is clear with the colour scheme used for the quiz to ensure good accessibility for all users. 
+There are of course many themes to use for the topic of True Crime, but I decided to choose a dark and eerie image as the background for the whole site to coincide with the theme of True Crime, without being too specific! The contrast between the dark image is clear with the colour scheme used for the quiz to ensure good accessibility for all users.
 
 ![Background Image](assets/images/black-and-white-door-view.jpeg)
 
@@ -74,16 +76,28 @@ There are of course many themes to use for the topic of True Crime, but I decide
 
 ### Home Page
 
-I designed a simple homepage with the title of the quiz, three buttons: Start Quiz, High Scores and How to Play. I have created a modal box that pops up when the button ‘How To Play’ is clicked on and explains the quiz to the user. 
+I designed a simple homepage with the title of the quiz, three buttons: How to Play, Start Quiz and High Scores. I have created a modal box that pops up when the button ‘How To Play’ is clicked on and explains the quiz to the user.
 
 The simplicity aims to make it clean and unfussy to the user, giving them clear access to see the function of the page whilst giving all relevant information they will need, including where to start and how to play.
 
+All buttons on the site have a slight box-shadow effect when hovered over. This is more visible when viewed on desktop, however the effect still presents on mobile when the button is pressed.
+
+![hover on button](https://media.giphy.com/media/M7Jhkg3eWYuXw7KZzA/giphy.gif)
+
 ### Quiz Page
 
-### End of Quiz Page
-Upon completing the quiz, the user is taken to the end page which displays their final score. 
+Once pressing the 'Start Quiz' button, the user is taken to the first question where they are faced with choosing from four options. The page displays a question counter, showing how far they are in the quiz, as well as their current score.  
+
+I have utilised a Sweetalert pop-up which displays once the user has selected a choice, and displays a different message depending on whether the choice was 'correct' or 'incorrect'.
+
+![Correct/incorrect alert](assets/screenshots/correct-incorrect.png)
+
+### End Page
+Upon completing the quiz, the user is taken to the end page which displays the result they scored for the game and provides the option to save their score. The top 5 scores are saved to local storage and can be accessed via the home screen by pressing the 'High Scores' button.
 
 ### How to Play
+
+### High Scores
 
 ## Testing
 
@@ -93,13 +107,28 @@ Upon completing the quiz, the user is taken to the end page which displays their
 - **CSS**
 - **Javascript**
 
-### Google Dev Tools - Lighthouse Testing
 
 ### Mobile and Desktop Testing
 
-### Responsiveness
-To ensure the site is responsive across all screen sizes, I have added some media queries
+### Accessibility
 
+To ensure the contrast of the colours used on the site meet Web Content Accessibility Guidelines (WCAG), I used a contrast checker which passed criteria. 
+
+![Contrast checker](assets/screenshots/contrast-checker.png)
+
+
+Initially, I had picked different colours for the Sweetalert pop-ups, however, after testing these in a contrast checker, the background and foreground colours didn't adhere to WCAG standards.
+
+![Sweet alert pop up colour changes](assets/screenshots/Sweetalert%20pop%20up%20colour%20changes.png)
+
+The first half of this palette shows the colours I had initially used for the background and text of the incorrect and correct pop-ups respectively. The second half shows the shades they were changed to. 
+
+Initially, I wanted to keep the text for both results the same colour. This, however, wouldnt have been possible if I were to stick with this shade of green, which signifies something to be 'correct' or 'true', it wouldn't have passed the contrast checker. However, after changing to a darker colour for the correct pop-up text, I believe it further adds to signify the contrast between the two results.
+
+#### Google Dev Tools - Lighthouse Testing
+
+### Responsiveness
+To ensure the site is responsive across all screen sizes, I have added several media queries. One main issue I had was making sure the container stayed responsive across all screen sizes. I reduced some padding and font sizing for screen sizes 576px and down and got some help with tutor support who suggested using a transform property to scale the page container.
 ### Bugs
 
 ## Deployment
@@ -155,9 +184,10 @@ I utilised the many resources available on Youtube to help build my understandin
 - The colour scheme was generated using [Coolors](https://coolors.co/).
 - The Favicon created for the site was made on [Favicon](https://favicon.io/).
 - [Animate](https://animate.style/) library was used for some custom CSS animation styling.
-- Custom pop up boxed were sourced from [sweetalert](https://sweetalert2.github.io/#custom-class).
+- Custom pop up boxes were sourced from [Sweetalert](https://sweetalert2.github.io/#custom-class).
 - Emojis used in the quiz were sourced from [Emojipedia](https://emojipedia.org/).
-- 
+- [Am I Responsive](http://ami.responsivedesign.is/?url=https%3A%2F%2Fyasminebb.github.io%2FThe-True-Crime-Quiz%2F) was used to visualise the responsiveness of the site on a select number of screen sizes.
+- [Colour Contrast Checker](https://colourcontrast.cc/33cc00/201d1d) was used to check the contrast of the colours used in the site against WCAG standards.
 
 
 ### Media
