@@ -434,3 +434,15 @@ h2 {
         margin: 1rem;
     }
 }
+
+@media screen and (max-width: 400px) {
+    .page-container {
+        transform: scale(.8);
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .page-container {
+        transform: scale(.8);
+    }
+}
