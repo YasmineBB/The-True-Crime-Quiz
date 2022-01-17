@@ -51,20 +51,27 @@ Anyone can take part in the quiz, however it is more so targeted to those who ha
 
 ### User Stories  
 
-- As the site creator:
+- As the site creator:  
+
   - I want to create a quiz that is both enjoyable and challenging for the user.
   - I want to create a quiz that imparts knowledge to the user on the topic of true crime.
   - I want to create a quiz that is interactive and easy to use.
-  - I want to create a quiz that is visually appealing to the user.
-- As a first time user:
+  - I want to create a quiz that is visually appealing to the user.  
+
+- As a first time user:  
+
   - I want to play a quiz intuitively.
   - I want to have an insightful experience into the topic at hand, true crime.
   - I want to be able to see my results after playing the game.
   - I want to have the option to share this quiz with friends.  
-- As a returning user:
+
+- As a returning user:  
+
   - I want to challenge myself and improve on my scores.
 
 ## Design
+
+I created a set of Wireframes which can be viewed [here](wireframes.md).
 
 ### Colour Scheme  
 
@@ -95,6 +102,7 @@ All buttons on the site have a slight box-shadow effect when hovered over. This 
 ![Hover on button](https://media.giphy.com/media/M7Jhkg3eWYuXw7KZzA/giphy.gif)
 
 ### How To Play
+
 
 The first button on the Homepage, once pressed, displays a pop-up with an explanation of the quiz.
 
@@ -154,6 +162,7 @@ Areas of development for this quiz include:
   - The colourful pop-ups when answering questions and the ability to save and share high scores makes for a fun, interactive and easy to play quiz.  
   
 - I want to create a quiz that is visually appealing to the user.  
+  - The layout is clean and the image used and colour scheme tie in with the theme of True Crime. The pop-up alerts are colour coded to signify something to be 'true' or 'correct' (green) or 'false' or 'incorrect' (red).
 
 **As a first time user:**  
 
@@ -176,7 +185,7 @@ Areas of development for this quiz include:
 
 - I want to challenge myself and improve on my scores.  
 
-  - The High Scores feature encourages the user to replay the quiz as and compare their scores to previous plays.  
+  - The High Scores feature encourages the user to replay the quiz and compare their scores to previous attempts in order to gain maximum scores, and maximum knowledge from the quiz.  
   
 ### Validator Testing
 
@@ -194,7 +203,7 @@ To ensure the contrast of the colours used on the site meet Web Content Accessib
 
 Initially, I had picked different colours for the Sweetalert pop-ups, however, after testing these in a contrast checker, the background and foreground colours didn't adhere to WCAG standards.
 
-![Sweet alert pop up colour changes](assets/screenshots/Sweetalert%20pop%20up%20colour%20changes.png)
+![Sweet alert pop up colour changes](assets/screenshots/Sweetalert-pop-up-colour-changes.png)
 
 The first half of this palette shows the colours I had initially used for the background and text of the incorrect and correct pop-ups respectively. The second half shows the shades they were changed to.
 
