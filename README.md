@@ -10,6 +10,8 @@ And as this project may suggest, I too am a member of the weirdly obsessed with 
 
 The True Crime Quiz presents a selection of questions to test the user's knowledge and to hopefully impart something new to add to their True Crime knowledge bank. The top five scores are saved so the user can challenge themselves, friends or family to make it to the scoreboard.
 
+Anyone can take part in the quiz, however it is more so targeted to those who have a keen interest in the topic.
+
 ## Table of Contents
 
 - [The True Crime Quiz](#the-true-crime-quiz)
@@ -68,7 +70,7 @@ The True Crime Quiz presents a selection of questions to test the user's knowled
 
 The colour scheme I have chosen for the quiz is overall darker tones with a lighter colour for maximum user accessibility.
 
-![Colour Scheme](./assets/images/README%20Images/coolers-colour-palette.png)
+![Colour Scheme](assets/screenshots/true-crime-quiz-palette.png)
 
 ### Typography
 
@@ -122,7 +124,7 @@ Links to social media sites are also displayed to encourage the user to share th
 
 ### High Scores
 
-As mentioned above, the user can access their High Scores from the Homepage where they are presented with their top five scores from playing the quiz.  
+As mentioned above, the user can access their High Scores from the Homepage where they are presented with their top five overall scores.
 
 ![High-scores](assets/screenshots/high-scores.png)
 
@@ -130,9 +132,11 @@ As mentioned above, the user can access their High Scores from the Homepage wher
 
 Areas of development for this quiz include:  
 
-- Implementing different levels of difficulty...  
+- I would like to implement different levels of ability, with questions matching each level: 'Amateur', 'Intermediate' and 'Expert'. The user would be able to pick a level they feel their current knowledge matches, play and have the ability to move up as they build their True Crime knowledge.
 
-- After each question is answered, a fact is provided
+- I would also like to implement a feature whereby after each question is answered, a fact is provided and if the answer was incorrect, the correct answer, with a fact, was shown on the screen.  
+
+- Ideally in this quiz I would have liked to have created the option for the user to share their results automatically by clicking a button but wasn't able to make that happen at this stage, although this is a potential feature for the future.
 
 ## Testing
 
@@ -141,26 +145,32 @@ Areas of development for this quiz include:
 **As a site creator:**  
 
 - I want to create a quiz that is both enjoyable and challenging for the user.
-  - After having a few friends play the quiz, feedback I received was that the questions were challenging, but they enjoyed playing nonetheless.  
+  - After testing by having a few friends play the quiz, feedback I received was that the questions were challenging, but they enjoyed playing nonetheless.  
   
 - I want to create a quiz that imparts knowledge to the user on the topic of true crime.
   - Feedback I received was they users learned new facts on the topic of True Crime.  
   
 - I want to create a quiz that is interactive and easy to use.
-  - The colourful pop-ups when answering questions.  
+  - The colourful pop-ups when answering questions and the ability to save and share high scores makes for a fun, interactive and easy to play quiz.  
   
 - I want to create a quiz that is visually appealing to the user.  
 
 **As a first time user:**  
 
-- I want to play a quiz intuitively.
-  - The layout and buttons are clear on each page. There is a timer for each question set to 2000 without the option to click off the page to ensure smooth transition between questions and until the final score page. The user doesnt have to click anywhere and can see where they are in the quiz and what their score stands at. I debated implementing a button that takes the user back to the homepage but decided
-- I want to have an insightful experience into the topic at hand, true crime.
-  - The selection of 15 questions provides an insight with many facts that aren't necessarily commonly known. This encourages the user to play the quiz again to build their knowledge.
-- I want to be able to see my results after playing the game.
-  - Once the game has been completed, the user is automatically taken to the end page where their score is displayed. The score itself is displayed in the 'Fjalla One' font which is bolder and makes it stand out.
-- I want to have a wide selection of questions.
+- I want to play a quiz intuitively.  
+
+  - The layout and buttons are clear on each page. There is a timer for each question set to 2000 without the option to click out of the page. The user doesn't have to click any buttons except for the answers they are choosing, and can see where they are in the quiz and what their score stands at. This is to ensure a smooth transition throughout the quiz and until the final score page. <!--I debated implementing a button that takes the user back to the homepage but decided -->  
+  
+- I want to have an insightful experience into the topic at hand, True Crime.  
+
+  - The selection of 15 questions provides an insight with many facts that aren't necessarily commonly known. This encourages the user to play the quiz again to build their knowledge.  
+
+- I want to be able to see my results after playing the game.  
+
+  - Once the game has been completed, the user is automatically taken to the end page where their score is displayed. The score itself is displayed in the 'Fjalla One' font which is bolder and makes it stand out.  
+  
 - I want to have the option to share this quiz with friends.  
+  - The end page provides a link to several social media sites that, once clicked, will take the user to their dashboard where they can share their experience. Ideally I would have liked to create the option to share automatically and this is something I plan
 
 **As a returning user:**  
 
@@ -192,7 +202,7 @@ Initially, I wanted to keep the text for both results the same colour. This, how
 
 #### Google Developer Tools - Lighthouse Testing  
 
-When running Lighthouse testing, I used an incognito window after I was having some issues with performance ratings caused by my Chrome extensions.
+When running Lighthouse testing, I used an incognito window to minimise any issues with performance ratings caused by my Chrome extensions. There were no issues to report.
 
 [Lighthouse Testing Scores](Lighthouse.md)  
 

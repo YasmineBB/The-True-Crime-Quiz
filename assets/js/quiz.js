@@ -94,7 +94,7 @@ let questions = [{
         answer: 1
     },
     {
-        question: 'Thomas J Grasso’s final words before he was executed by lethal injection were:',
+        question: "Thomas J Grasso’s final words before he was executed by lethal injection were:",
         choice1: "I don't even know why I'm here.",
         choice2: "I didn’t want my Spaghettio’s. I got spaghetti. I want the press to know this.",
         choice3: "I’ll be in Hell before you start breakfast, boys. Let her rip.",
@@ -144,7 +144,6 @@ function startGame() {
     questionCounter = 0;
     score = 0;
     availableQuestions = questions;
-
     getNewQuestion();
 };
 
