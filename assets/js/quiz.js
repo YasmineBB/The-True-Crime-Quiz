@@ -130,9 +130,9 @@ let questions = [{
     },
     {
         question: 'Which serial killer duo dubbed the vehicle they used, the Murder Mack?',
-        choice1: 'The Love Slave Killers',
-        choice2: 'The Lonely Hearts Killers',
-        choice3: 'The Hillside Stranglers',
+        choice1: 'The Love Slave Killers, Gerald and Charlene Gallego',
+        choice2: 'The Lonely Hearts Killers, Martha Beck and Raymond Martinez Fernandez',
+        choice3: 'The Hillside Stranglers, Kenneth Bianchi & Angelo Buono',
         choice4: 'The Toolbox Killers, Lawrence Bittaker and Roy Norris',
         answer: 4
     },

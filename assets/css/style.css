@@ -53,6 +53,15 @@ h2 {
     border-radius: 2%;
 }
 
+
+.page-container-home {
+    text-align: center;
+    padding: 1.5rem;
+    border: 0.5rem solid antiquewhite;
+    background-color: rgb(78, 78, 78, 0.85);
+    border-radius: 2%;
+}
+
 .high-scores-container {
     text-align: center;
     padding: 1.5rem;
@@ -61,7 +70,8 @@ h2 {
     border-radius: 2%;
 }
 
-.page-container p {
+.page-container,
+.page-container-home p {
     font-size: 1.5rem;
     padding: 0.5rem;
 }
@@ -135,7 +145,7 @@ h2 {
 
 .modal {
     background-color: rgb(78, 78, 78);
-    width: 90vw;
+    /* width: 90vw; */
     /*height: 55vh;*/
     max-width: 90%;
     padding: 2rem;
@@ -438,6 +448,16 @@ h2 {
     .page-container {
         transform: scale(.9);
     }
+
+    /* #modal-container {
+        transform: scale(0.7);
+    } */
+
+    .page-container-home p {
+        font-size: 1.25rem;
+        padding: 0.5rem;
+    }
+
 }
 
 
