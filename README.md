@@ -1,7 +1,7 @@
 # **The True Crime Quiz**
 ![Homepage Image](assets/screenshots/am-i-responsive.png)
 
-<!--True Crime. is a topic that, however dubious, is a fascinating world for many people.--> 
+## Introduction <!--True Crime. is a topic that, however dubious, is a fascinating world for many people.--> 
 Is it morbid fascination, simple human curiosity or is there something more to societies obsession with True Crime? <!--A morbid fascination? Simple human curiosity? Or is there something more....some sort of psychological reasoning ... to societies obsession with True Crime?--> Who knows, but the countless podcasts and YouTube channels, blog posts and documentaries dedicated to pretty much every case, theory and criminal shows we clearly can't get enough.
 And as this project may suggest, I too am a member of the weirdly obsessed with True Crime club. So I decided to build a quiz based on the topic for my second Portfolio Project with Code Institute!  
 
@@ -9,6 +9,9 @@ The True Crime Quiz presents a selection of questions to test the user's knowled
 
 ## Table of Contents
 
+
+  - [Introduction](#introduction)
+  - [Table of Contents](#table-of-contents)
   - [User Experience](#user-experience)
     - [User Stories](#user-stories)
   - [Design](#design)
@@ -16,24 +19,27 @@ The True Crime Quiz presents a selection of questions to test the user's knowled
     - [Typography](#typography)
     - [Images](#images)
   - [Features](#features)
-    - [Home Screen](#home-screen)
+    - [Home Page](#home-page)
+    - [How To Play](#how-to-play)
     - [Quiz Page](#quiz-page)
-    - [End of Quiz Screen](#end-of-quiz-screen)
-    - [How to Play](#how-to-play)
+    - [End Page](#end-page)
+    - [High Scores](#high-scores)
   - [Testing](#testing)
+    - [Testing User Stories](#testing-user-stories)
     - [Validator Testing](#validator-testing)
-    - [Google Dev Tools - Lighthouse Testing](#google-dev-tools---lighthouse-testing)
     - [Mobile and Desktop Testing](#mobile-and-desktop-testing)
-    - [Responsiveness](#responsiveness)
-    - [Bugs](#bugs)
+      - [Accessibility](#accessibility)
+      - [Google Dev Tools - Lighthouse Testing](#google-dev-tools---lighthouse-testing)
+      - [Responsiveness](#responsiveness)
   - [Deployment](#deployment)
-    - [**GitHub Pages**](#github-pages)
-    - [**Forking**](#forking)
-    - [**Cloning**](#cloning)
+    - [GitHub Pages](#github-pages)
+    - [Forking](#forking)
+    - [Cloning](#cloning)
   - [Credits](#credits)
+    - [Code](#code)
     - [Technologies Used](#technologies-used)
-    - [Media](#media)
     - [Content](#content)
+    - [Media](#media)
 
 ## User Experience  
 
@@ -85,25 +91,75 @@ All buttons on the site have a slight box-shadow effect when hovered over. This 
 ![Hover on button](https://media.giphy.com/media/M7Jhkg3eWYuXw7KZzA/giphy.gif)
 
 ### How To Play
+
 The first button on the Homepage, once pressed, displays a pop-up with an explanation of the quiz.
 
 ### Quiz Page
 
 Once pressing the 'Start Quiz' button, the user is taken to the first question where they are presented with a question and four potential answers. The page displays a question counter, showing how far they are in the quiz, as well as their current score.  
 
+![Start-quiz](assets/screenshots/start-quiz.png)
+
 I have implemented a Sweetalert pop-up which displays once the user has selected a choice, and displays a different message depending on whether the choice was 'correct' or 'incorrect'.
 
-![Correct/incorrect alert](assets/screenshots/correct-incorrect.png)
+Correct | Incorrect
+ :--------: | :-----:
+ ![Correct-alert](https://media.giphy.com/media/gGfMVeqGSQ5m6RXhi0/giphy.gif) | ![Incorrect-alert](https://media.giphy.com/media/pBoJoTjVXpUoR5pupj/giphy.gif)
+
+
 
 ### End Page
-Upon completing the quiz, the user is taken to the end page which displays the result they scored for the game and provides the option to save their score. Links to social media sites are also displayed to encourage the user to share their score, a point mentioned in the How To Play pop-op on the Homepage. The top five scores are saved to local storage and can be accessed via the home screen by pressing the 'High Scores' button.
+
+Upon completing the quiz, the user is taken to the end page which displays the result they scored for the game and provides the option to save their score.  
+
+![End-screen](assets/screenshots/end-screen.png)
+
+Once the user has saved their score a pop-up is displayed.  
+
+![Saved-score](assets/screenshots/score-saved.png)
+
+Links to social media sites are also displayed to encourage the user to share their score, a point mentioned in the How To Play pop-op on the Homepage. The top five scores are saved to local storage and can be accessed via the home screen by pressing the 'High Scores' button.
 
 ### High Scores
 
-As mentioned above, the user can access their High Scores from the Homepage where they are presented with their top five scores from playing the quiz.
+As mentioned above, the user can access their High Scores from the Homepage where they are presented with their top five scores from playing the quiz.  
+
+![High-scores](assets/screenshots/high-scores.png)
+
+### Future Features to Implement
+
+Areas of development for this quiz include:
+- Implementing different levels of difficulty...
+- After each question is answered, a fact is provided
 
 ## Testing
 
+### Testing User Stories
+
+**As a site creator:**
+- I want to create a quiz that is both enjoyable and challenging for the user.
+    - After having a few friends play the quiz, feedback I received was that the questions were challenging but they enjoyed playing nonetheless.  
+     
+- I want to create a quiz that imparts knowledge to the user on the topic of true crime.
+    - Feedback I received was they users learned new facts on the topic of True Crime.  
+     
+- I want to create a quiz that is interactive and easy to use.
+    - The colourful pop-ups when answering questions.  
+ - I want to create a quiz that is visually appealing to the user.
+    
+**As a first time user:**
+- I want to play a quiz intuitively.
+  - The layout and buttons are clear on each page. There is a timer for each question set to 2000 without the option to click off the page to ensure smooth transition between questions and until the final score page. The user doesnt have to click anywhere and can see where they are in the quiz and what their score stands at. I debated implementing a button that takes the user back to the homepage but decided
+- I want to have an insightful experience into the topic at hand, true crime.
+  - The selection of 15 questions provides an insight with many facts that aren't necessarily commonly known. This encourages the user to play the quiz again to build their knowledge.
+- I want to be able to see my results after playing the game.
+     -  Once the game has been completed, the user is automatically taken to the end page where their score is displayed. The score itself is displayed in the 'Fjalla One' font which is bolder and makes it stand out.
+- I want to have a wide selection of questions.
+- I want to have the option to share this quiz with friends.
+    
+**As a returning user:**
+- I want to challenge myself and improve on my scores.
+  - The High Scores feature encourages the user to replay the quiz as and compare their scores to previous plays.
 ### Validator Testing
 
 - **HTML**
@@ -131,9 +187,10 @@ Initially, I wanted to keep the text for both results the same colour. This, how
 #### Google Dev Tools - Lighthouse Testing
 
 #### Responsiveness
-To ensure the site is responsive across all screen sizes, I have added several media queries. One main issue I had was making sure the container stayed responsive across all screen sizes. I reduced some padding and font sizing for screen sizes 576px and down and got some help with tutor support who suggested using a transform property to scale the page container.
 
-### Bugs
+I faced a couple of challenges trying to ensure the site was responsive on all screen sizes and this mainly came down to the questions being different lengths.
+
+To ensure the site is responsive across all screen sizes, I have added several media queries. One main issue I had was making sure the container stayed responsive across all screen sizes. I reduced some padding and font sizing for screen sizes 576px and down and got some help with tutor support who suggested using a transform property to scale the page container.
 
 ## Deployment
 
@@ -174,7 +231,7 @@ In order to clone the project, the following steps are to be followed:
 ## Credits
 Throughout the course of this project, I have used a wide range of online resources to help me understand Javascript, as I have found it very challenging to grasp a strong comprehension of and it has been a huge step up from CSS and HTML.
 
-I utilised the many resources available on Youtube to help build my understanding of Javascript and to help build the quiz. I used resources such as Stack Overflow and the Javascript module on Codecademy, using the run through projects to help improve my understanding.
+I utilised the many resources available on Youtube to help build my understanding of Javascript and to help build the quiz. In addition to the course content from Code Institute, I used resources such as Stack Overflow and the Javascript module on Codecademy, using their run through projects to help improve my understanding.
 
 ### Code
 
@@ -182,8 +239,8 @@ I utilised the many resources available on Youtube to help build my understandin
 - Code for how to create a pop-up modal was taken from the [Create a Modal (Popup) with HTML/CSS and JavaScript](https://www.youtube.com/watch?v=XH5OW46yO8I) YouTube video from Florin Pop.
 
 ### Technologies Used
-- [Github](www.github.com) was used to create the repository and deploy the site.
-- [VSCode](https://code.visualstudio.com/) and [Gitpod](https://www.gitpod.io/) were used to practice, build and develop code.
+- [GitHub](www.github.com) was used to create the repository and deploy the site.
+- [VS Code](https://code.visualstudio.com/) and [Gitpod](https://www.gitpod.io/) were used to practice, build and develop code.
 - The fonts used on the site were taken from [Google Fonts](https://fonts.google.com/).
 - The colour scheme was generated using [Coolors](https://coolors.co/).
 - The Favicon created for the site was made on [Favicon](https://favicon.io/).
@@ -195,14 +252,14 @@ I utilised the many resources available on Youtube to help build my understandin
 
 ### Content
 
-To build the questions for this quiz I used both my own general knowledge as well as sourcing information and fact-checking from the following sites:
+To build the questions for this quiz I used my own general knowledge as well as sourcing information and fact-checking from the following sites:
 - [Factinate](https://www.factinate.com/things/42-gruesome-facts-true-crime-cases/)
 - [Crime and Investigation](https://www.crimeandinvestigation.co.uk/article/serial-killers-iqs-ranked)
 - [Serial Killer Database](http://maamodt.asp.radford.edu/Serial%20Killer%20Information%20Center/Serial%20Killer%20Statistics.pdf)
 - [Statista](https://www.statista.com/chart/20495/most-read-wikipedia-articles/)
 - [Listverse](https://listverse.com/2018/07/02/10-murderers-who-used-their-genius-iqs-for-evil/) 10 Murderers Who Used Their Genius IQs For Evil
-- Listverse - [https://listverse.com/2018/08/19/10-creepiest-letters-penned-by-serial-killers/](https://listverse.com/2018/08/19/10-creepiest-letters-penned-by-serial-killers/)
-- Listverse - [https://listverse.com/2021/09/26/10-things-you-didnt-know-about-the-manson-girls/](https://listverse.com/2021/09/26/10-things-you-didnt-know-about-the-manson-girls/)
+- [Listverse](https://listverse.com/2018/08/19/10-creepiest-letters-penned-by-serial-killers/) 10 Creepiest Letters Penned By Serial Killers
+- [Listverse](https://listverse.com/2021/09/26/10-things-you-didnt-know-about-the-manson-girls/) 10 Things you didn't Know About the Manson Girls
 - [Ranker](https://www.ranker.com/list/famous-serial-killer-last-words/ranker-crime)
 - [The High Court](https://thehighcourt.co/serial-killer-facts/)
 - [All Things Interesting](https://allthatsinteresting.com/famous-serial-killers#33)

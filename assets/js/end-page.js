@@ -47,7 +47,4 @@ saveHighScore = (e) => {
 
     localStorage.setItem('highScores', JSON.stringify(highScores));
 
-    //Add alert once score is saved
-
-    console.log(highScores)
 }

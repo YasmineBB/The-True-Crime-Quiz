@@ -265,7 +265,7 @@ h2 {
     transition: ;
 }
 
-/* ClassToApply - if question is answered correctly or incorrectly */
+/* Styling if questions are answered correctly or incorrectly */
 
 .correct {
     background-color: #33CC00;
@@ -274,14 +274,6 @@ h2 {
 .incorrect {
     background-color: #b50000;
 }
-
-/* Sweet alert styling */
-
-.swal-text {
-    /*color: #FAEBD7;*/
-    /*color: #fefefe;*/
-}
-
 
 
 /* End page */

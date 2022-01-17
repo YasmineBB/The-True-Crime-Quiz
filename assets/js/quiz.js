@@ -3,9 +3,6 @@ const choices = Array.from(document.getElementsByClassName('choice-text'));
 const questionCounterText = document.getElementById('question-counter');
 const scoreText = document.getElementById('score');
 
-// Modal - not showing choice text when code for modal is placed on this page??
-
-
 let currentQuestion = {};
 let acceptingAnswers = false;
 let score = 0;
@@ -139,12 +136,10 @@ let questions = [{
 
 ]
 
-
-// (Dont forget to add remaining questions)
-
 /**
  * Starts the game
  */
+
 function startGame() {
     questionCounter = 0;
     score = 0;
@@ -159,7 +154,6 @@ function startGame() {
 
 function getNewQuestion() {
 
-    /* DOUBLE CHECK, DIDNT INPUT AT FIRST*/
     if (availableQuestions.length === 0 || questionCounter > maxQuestions) {
         localStorage.setItem('mostRecentScore', score);
         return window.location.assign('./end-page.html');
@@ -183,6 +177,10 @@ function getNewQuestion() {
 
 };
 
+/**
+ * Checks the selected answer and returns an alert
+ */
+
 choices.forEach(choice => {
     choice.addEventListener('click', e => {
         if (!acceptingAnswers) return;
@@ -204,6 +202,7 @@ choices.forEach(choice => {
                 text: 'You really know your stuff! 😎',
                 timer: 2000,
                 background: '#33CC00',
+                allowOutsideClick: false,
                 showConfirmButton: false
 
             })
@@ -215,6 +214,7 @@ choices.forEach(choice => {
                 color: '#fefefe',
                 timer: 2000,
                 background: '#b50000',
+                allowOutsideClick: false,
                 showConfirmButton: false
 
             });
@@ -222,7 +222,9 @@ choices.forEach(choice => {
 
         selectedChoice.parentElement.classList.add(classToApply);
 
-
+        /**
+         * Adds a timer between each question
+         */
 
         setTimeout(() => {
             selectedChoice.parentElement.classList.remove(classToApply);
