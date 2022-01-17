@@ -113,7 +113,7 @@ let questions = [{
         answer: 4
     },
     {
-        question: 'The Axeman of New Orleans, an unidentified killer who went on a killing spree in 1918-19, supposedly wrote a letter that was published in the local newspaper stating that he would spare those he found doing the following:',
+        question: 'The Axeman of New Orleans, an unidentified killer who went on a killing spree in 1918-19, supposedly wrote a letter that was published in the local newspaper stating that he would spare those he found doing which of the following:',
         choice1: 'Playing Jazz music',
         choice2: 'Going to Church',
         choice3: 'Wearing red',
