@@ -31,3 +31,5 @@
 - High Scores Page (Mobile)  
 
 ![High-scores-mobile](assets/screenshots/lighthouse/high-scores-mobile.png)  
+
+[Return](./README.md##testing)

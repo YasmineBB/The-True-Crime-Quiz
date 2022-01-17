@@ -19,3 +19,6 @@
 - High Scores  
 
 ![High-scores](assets/screenshots/wireframes/wireframe-high-scores.png)
+
+
+[Back to Section](./README.md##design)

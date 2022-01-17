@@ -57,7 +57,7 @@ Anyone can take part in the quiz, however it is more so targeted to those who ha
   - I want to create a quiz that imparts knowledge to the user on the topic of true crime.
   - I want to create a quiz that is interactive and easy to use.
   - I want to create a quiz that is visually appealing to the user.  
-
+  
 - As a first time user:  
 
   - I want to play a quiz intuitively.
@@ -213,7 +213,7 @@ Initially, I wanted to keep the text for both results the same colour. This, how
 
 When running Lighthouse testing, I used an incognito window to minimise any issues with performance ratings caused by my Chrome extensions. There were no issues to report.
 
-[Lighthouse Testing Scores](Lighthouse.md)  
+[Lighthouse Testing Scores](lighthouse.md)  
 
 #### Responsiveness
 
