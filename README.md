@@ -2,10 +2,10 @@
 ![Homepage Image](assets/screenshots/am-i-responsive.png)
 
 <!--True Crime. is a topic that, however dubious, is a fascinating world for many people.--> 
-Is it morbid fascination, simple human curiosity or is there something more to societies obsession with True Crime? <!--A morbid fascination? Simple human curiosity? Or is there something more....some sort of psychological reasoning ... to societies obsession with True Crime?--> Who knows, but he countless podcasts and YouTube channels, blog posts and documentaries dedicated to pretty much every case, theory and criminal shows we clearly can't get enough.
-And as this project may suggest, I too am a member of the weirdly obsessed with True Crime club. So I decided to build a quiz based on the topic for my PP2 with Code Institute!  
+Is it morbid fascination, simple human curiosity or is there something more to societies obsession with True Crime? <!--A morbid fascination? Simple human curiosity? Or is there something more....some sort of psychological reasoning ... to societies obsession with True Crime?--> Who knows, but the countless podcasts and YouTube channels, blog posts and documentaries dedicated to pretty much every case, theory and criminal shows we clearly can't get enough.
+And as this project may suggest, I too am a member of the weirdly obsessed with True Crime club. So I decided to build a quiz based on the topic for my second Portfolio Project with Code Institute!  
 
-The True Crime Quiz has a selection of questions to test the user's knowledge and to hopefully impart something new to add to their True Crime knowledge bank. The top five scores are saved so the user can challenge themselves, friends or family to make it to the scoreboard.
+The True Crime Quiz presents a selection of questions to test the user's knowledge and to hopefully impart something new to add to their True Crime knowledge bank. The top five scores are saved so the user can challenge themselves, friends or family to make it to the scoreboard.
 
 ## Table of Contents
 
@@ -64,7 +64,7 @@ The colour scheme I have chosen for the quiz is overall darker tones with a ligh
 
 ### Typography
 
-I have chosen two fonts to use across the site; 'Fjalla One', which is a medium-contrast display sans serif, and 'Open Sans Condensed'. Both taken from Google Fonts. Fjalla One is used for the majority of headings and buttons and Open Sans Condensed for all other text on the site.
+I have chosen two fonts to use across the site; 'Fjalla One', which is a medium-contrast display sans serif, and 'Open Sans Condensed'. Both taken from Google Fonts. 'Fjalla One' is used for the majority of headings and buttons and 'Open Sans Condensed' for all other text on the site.
 
 ### Images
 
@@ -82,22 +82,25 @@ The simplicity aims to make it clean and unfussy to the user, giving them clear 
 
 All buttons on the site have a slight box-shadow effect when hovered over. This is more visible when viewed on desktop, however the effect still presents on mobile when the button is pressed.
 
-![hover on button](https://media.giphy.com/media/M7Jhkg3eWYuXw7KZzA/giphy.gif)
+![Hover on button](https://media.giphy.com/media/M7Jhkg3eWYuXw7KZzA/giphy.gif)
+
+### How To Play
+The first button on the Homepage, once pressed, displays a pop-up with an explanation of the quiz.
 
 ### Quiz Page
 
-Once pressing the 'Start Quiz' button, the user is taken to the first question where they are faced with choosing from four options. The page displays a question counter, showing how far they are in the quiz, as well as their current score.  
+Once pressing the 'Start Quiz' button, the user is taken to the first question where they are presented with a question and four potential answers. The page displays a question counter, showing how far they are in the quiz, as well as their current score.  
 
-I have utilised a Sweetalert pop-up which displays once the user has selected a choice, and displays a different message depending on whether the choice was 'correct' or 'incorrect'.
+I have implemented a Sweetalert pop-up which displays once the user has selected a choice, and displays a different message depending on whether the choice was 'correct' or 'incorrect'.
 
 ![Correct/incorrect alert](assets/screenshots/correct-incorrect.png)
 
 ### End Page
-Upon completing the quiz, the user is taken to the end page which displays the result they scored for the game and provides the option to save their score. The top 5 scores are saved to local storage and can be accessed via the home screen by pressing the 'High Scores' button.
-
-### How to Play
+Upon completing the quiz, the user is taken to the end page which displays the result they scored for the game and provides the option to save their score. Links to social media sites are also displayed to encourage the user to share their score, a point mentioned in the How To Play pop-op on the Homepage. The top five scores are saved to local storage and can be accessed via the home screen by pressing the 'High Scores' button.
 
 ### High Scores
+
+As mentioned above, the user can access their High Scores from the Homepage where they are presented with their top five scores from playing the quiz.
 
 ## Testing
 
@@ -110,7 +113,7 @@ Upon completing the quiz, the user is taken to the end page which displays the r
 
 ### Mobile and Desktop Testing
 
-### Accessibility
+#### Accessibility
 
 To ensure the contrast of the colours used on the site meet Web Content Accessibility Guidelines (WCAG), I used a contrast checker which passed criteria. 
 
@@ -127,8 +130,9 @@ Initially, I wanted to keep the text for both results the same colour. This, how
 
 #### Google Dev Tools - Lighthouse Testing
 
-### Responsiveness
+#### Responsiveness
 To ensure the site is responsive across all screen sizes, I have added several media queries. One main issue I had was making sure the container stayed responsive across all screen sizes. I reduced some padding and font sizing for screen sizes 576px and down and got some help with tutor support who suggested using a transform property to scale the page container.
+
 ### Bugs
 
 ## Deployment
@@ -179,7 +183,7 @@ I utilised the many resources available on Youtube to help build my understandin
 
 ### Technologies Used
 - [Github](www.github.com) was used to create the repository and deploy the site.
-- [VSCode](https://code.visualstudio.com/) was used to practice, build and develop code.
+- [VSCode](https://code.visualstudio.com/) and [Gitpod](https://www.gitpod.io/) were used to practice, build and develop code.
 - The fonts used on the site were taken from [Google Fonts](https://fonts.google.com/).
 - The colour scheme was generated using [Coolors](https://coolors.co/).
 - The Favicon created for the site was made on [Favicon](https://favicon.io/).
@@ -189,8 +193,21 @@ I utilised the many resources available on Youtube to help build my understandin
 - [Am I Responsive](http://ami.responsivedesign.is/?url=https%3A%2F%2Fyasminebb.github.io%2FThe-True-Crime-Quiz%2F) was used to visualise the responsiveness of the site on a select number of screen sizes.
 - [Colour Contrast Checker](https://colourcontrast.cc/33cc00/201d1d) was used to check the contrast of the colours used in the site against WCAG standards.
 
+### Content
+
+To build the questions for this quiz I used both my own general knowledge as well as sourcing information and fact-checking from the following sites:
+- [Factinate](https://www.factinate.com/things/42-gruesome-facts-true-crime-cases/)
+- [Crime and Investigation](https://www.crimeandinvestigation.co.uk/article/serial-killers-iqs-ranked)
+- [Serial Killer Database](http://maamodt.asp.radford.edu/Serial%20Killer%20Information%20Center/Serial%20Killer%20Statistics.pdf)
+- [Statista](https://www.statista.com/chart/20495/most-read-wikipedia-articles/)
+- [Listverse](https://listverse.com/2018/07/02/10-murderers-who-used-their-genius-iqs-for-evil/) 10 Murderers Who Used Their Genius IQs For Evil
+- Listverse - [https://listverse.com/2018/08/19/10-creepiest-letters-penned-by-serial-killers/](https://listverse.com/2018/08/19/10-creepiest-letters-penned-by-serial-killers/)
+- Listverse - [https://listverse.com/2021/09/26/10-things-you-didnt-know-about-the-manson-girls/](https://listverse.com/2021/09/26/10-things-you-didnt-know-about-the-manson-girls/)
+- [Ranker](https://www.ranker.com/list/famous-serial-killer-last-words/ranker-crime)
+- [The High Court](https://thehighcourt.co/serial-killer-facts/)
+- [All Things Interesting](https://allthatsinteresting.com/famous-serial-killers#33)
+
 
 ### Media
 
 The background image used on the site was taken from [Pexels](https://www.pexels.com/photo/black-wooden-door-frame-745054/).
-

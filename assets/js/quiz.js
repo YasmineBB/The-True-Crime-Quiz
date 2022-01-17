@@ -13,7 +13,7 @@ let questionCounter = 0;
 let availableQuestions = [];
 
 let correctCounter = 1;
-const maxQuestions = 6;
+const maxQuestions = 15;
 
 
 let questions = [{
@@ -63,7 +63,79 @@ let questions = [{
         choice3: 'Ed Kemper',
         choice4: 'Richard Chase',
         answer: 3
-    }
+    },
+    {
+        question: 'The 2005 movie Wolf Creek was partly inspired by which Australian serial killer?',
+        choice1: 'Martin Bryant',
+        choice2: 'Kim Leanne Snibson',
+        choice3: 'Ivan Milat',
+        choice4: 'Matthew De Gruchy',
+        answer: 3
+    },
+    {
+        question: "In 2019, which serial killer made it into third place of Wikipedia's most viewed articles?",
+        choice1: 'Ted Bundy',
+        choice2: 'Richard Ramirez',
+        choice3: 'Jeffrey Dahmer',
+        choice4: 'Jack the Ripper',
+        answer: 1
+    },
+    {
+        question: 'Herbert Mullin, who murdered 13 victims in California during the 1970s, claimed his murders were an act of sacrifice that would prevent what?',
+        choice1: 'Global Warming',
+        choice2: 'An Apocalypse',
+        choice3: 'Earthquakes',
+        choice4: 'An Alien Invasion',
+        answer: 3
+    },
+    {
+        question: "Manson girl Ruth Ann Moorhouse’ protestant father Dean tried to track her down several times. On his final attempt, he was introduced to acid, became a Manson believer and ended up staying in the cult leader's Californian mansion. In which famous musicians' houses did this occur?",
+        choice1: 'Dennis Wilson',
+        choice2: 'Neil Young',
+        choice3: 'Paul McCartney',
+        choice4: 'Mike Love',
+        answer: 1
+    },
+    {
+        question: 'Thomas J Grasso’s final words before he was executed by lethal injection were:',
+        choice1: "I don't even know why I'm here.",
+        choice2: "I didn’t want my Spaghettio’s. I got spaghetti. I want the press to know this.",
+        choice3: "I’ll be in Hell before you start breakfast, boys. Let her rip.",
+        choice4: "Yes, hurry it up, you Hoosier bastard! I could kill a dozen men while you're screwing around!",
+        answer: 2
+    },
+    {
+        question: 'Which former Church congregation president and Boy Scout leader led a double life, going on to become known as the BTK Killer?',
+        choice1: 'Ed Gein',
+        choice2: 'Sam Berkowitz',
+        choice3: 'David Berkowitz',
+        choice4: 'Dennis Rader',
+        answer: 4
+    },
+    {
+        question: 'The Axeman of New Orleans, an unidentified killer who went on a killing spree in 1918-19, supposedly wrote a letter that was published in the local newspaper stating that he would spare those he found doing the following:',
+        choice1: 'Playing Jazz music',
+        choice2: 'Going to Church',
+        choice3: 'Wearing red',
+        choice4: 'Eating together as a family',
+        answer: 1
+    },
+    {
+        question: "Who is named as ‘No Name Maddox’ on their birth certificate?",
+        choice1: 'Andrew Cunanan',
+        choice2: 'Charles Manson',
+        choice3: 'Randy Kraft',
+        choice4: 'Charles Ng',
+        answer: 2
+    },
+    {
+        question: 'Which serial killer duo dubbed the vehicle they used, the Murder Mack?',
+        choice1: 'The Love Slave Killers',
+        choice2: 'The Lonely Hearts Killers',
+        choice3: 'The Hillside Stranglers',
+        choice4: 'The Toolbox Killers, Lawrence Bittaker and Roy Norris',
+        answer: 4
+    },
 
 ]
 
