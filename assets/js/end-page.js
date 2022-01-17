@@ -14,7 +14,7 @@ finalScore.innerText = mostRecentScore;
 username.addEventListener('keyup', () => {
     console.log(username.value);
     saveScoreBtn.disabled = !username.value;
-})
+});
 
 saveHighScore = (e) => {
 
@@ -25,15 +25,8 @@ saveHighScore = (e) => {
         color: 'rgb(250, 235, 215)',
         showConfirmButton: false,
         timer: 3000
-    })
-    /*Swal.fire({
-        color: 'rgb(107, 9, 9)',
-        icon: 'success',
-        title: 'Your score is saved',
-        text: ' 😎',
-        background: 'rgb(250, 235, 215)',
+    });
 
-    })*/
     console.log('You clicked the save button!');
     e.preventDefault();
 
@@ -47,4 +40,4 @@ saveHighScore = (e) => {
 
     localStorage.setItem('highScores', JSON.stringify(highScores));
 
-}
+};

@@ -33,7 +33,7 @@ The True Crime Quiz presents a selection of questions to test the user's knowled
     - [Validator Testing](#validator-testing)
     - [Mobile and Desktop Testing](#mobile-and-desktop-testing)
       - [Accessibility](#accessibility)
-      - [Google Dev Tools - Lighthouse Testing](#google-dev-tools---lighthouse-testing)
+      - [Google Developer Tools - Lighthouse Testing](#google-developer-tools---lighthouse-testing)
       - [Responsiveness](#responsiveness)
   - [Deployment](#deployment)
     - [GitHub Pages](#github-pages)
@@ -98,7 +98,7 @@ The first button on the Homepage, once pressed, displays a pop-up with an explan
 
 ### Quiz Page
 
-Once pressing the 'Start Quiz' button, the user is taken to the first question where they are presented with a question and four potential answers. The page displays a question counter, showing how far they are in the quiz, as well as their current score.  
+Once pressing the 'Start Quiz' button, the user is taken to the first question where they are presented with a question and four potential answers. The page displays a question counter, showing how far they are in the quiz, as well as their current score. The questions are jumbled so each time the user plays or refreshes the page for example, a different set of order of the questions will present.
 
 ![Start-quiz](assets/screenshots/start-quiz.png)
 
@@ -190,7 +190,11 @@ The first half of this palette shows the colours I had initially used for the ba
 
 Initially, I wanted to keep the text for both results the same colour. This, however, wouldnt have been possible if I were to stick with this shade of green, which signifies something to be 'correct' or 'true', it wouldn't have passed the contrast checker. However, after changing to a darker colour for the correct pop-up text, I believe it further adds to signify the contrast between the two results.
 
-#### Google Dev Tools - Lighthouse Testing
+#### Google Developer Tools - Lighthouse Testing  
+
+When running Lighthouse testing, I used an incognito window after I was having some issues with performance ratings caused by my Chrome extensions.
+
+[Lighthouse Testing Scores](Lighthouse.md)  
 
 #### Responsiveness
 
