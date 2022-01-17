@@ -107,7 +107,7 @@ let questions = [{
     {
         question: 'Which former Church congregation president and Boy Scout leader led a double life, going on to become known as the BTK Killer?',
         choice1: 'Ed Gein',
-        choice2: 'Sam Berkowitz',
+        choice2: 'Donald Henry Gaskins',
         choice3: 'David Berkowitz',
         choice4: 'Dennis Rader',
         answer: 4
