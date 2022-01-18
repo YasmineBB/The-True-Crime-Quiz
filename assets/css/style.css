@@ -12,7 +12,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     font-size: 10px;
-    color: antiquewhite;
+    color: rgb(250, 235, 215);
     text-decoration: none;
 }
 
@@ -24,7 +24,6 @@ h2 {
 }
 
 #container {
-    /*height: 100vh;*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -48,7 +47,7 @@ h2 {
 .page-container {
     text-align: center;
     padding: 1.5rem;
-    border: 0.5rem solid antiquewhite;
+    border: 0.5rem solid rgb(250, 235, 215);
     background-color: rgb(78, 78, 78, 0.85);
     border-radius: 2%;
 }
@@ -57,7 +56,7 @@ h2 {
 .page-container-home {
     text-align: center;
     padding: 1.5rem;
-    border: 0.5rem solid antiquewhite;
+    border: 0.5rem solid rgb(250, 235, 215);
     background-color: rgb(78, 78, 78, 0.85);
     border-radius: 2%;
 }
@@ -65,7 +64,7 @@ h2 {
 .high-scores-container {
     text-align: center;
     padding: 1.5rem;
-    border: 0.5rem solid antiquewhite;
+    border: 0.5rem solid rgb(250, 235, 215);
     background-color: rgb(78, 78, 78, 0.85);
     border-radius: 2%;
 }
@@ -77,38 +76,17 @@ h2 {
 }
 
 .title {
-    /*padding-bottom: 2rem;*/
     font-size: 2.5rem;
-
 }
-
-/*
-.quiz-title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 2rem 6rem;
-    text-align: center;
-    border: 0.5rem solid antiquewhite;
-    background-color: rgb(78, 78, 78, 0.75);
-    border-radius: 2%;
-    max-width: 40%;
-    margin: 3rem auto;
-    text-decoration: none;
-}
-*/
-
-/* add box shadowing to buttons */
 
 .btn {
-    color: antiquewhite;
+    color: rgb(250, 235, 215);
     font-size: 1.25rem;
     font-family: inherit;
     letter-spacing: 1.5px;
-    border: 0.25rem solid antiquewhite;
+    border: 0.25rem solid rgb(250, 235, 215);
     background-color: rgb(107, 9, 9);
     border-radius: 5%;
-    /*padding maybe 2rem*/
     padding: 1rem;
     margin: 1rem;
     display: flex;
@@ -145,8 +123,6 @@ h2 {
 
 .modal {
     background-color: rgb(78, 78, 78);
-    /* width: 90vw; */
-    /*height: 55vh;*/
     max-width: 90%;
     padding: 2rem;
     border: 0.25rem solid rgb(107, 9, 9);
@@ -178,11 +154,6 @@ h2 {
     display: inline;
 }
 
-.hide {
-    display: none;
-}
-
-
 
 /* Quiz page */
 
@@ -192,12 +163,9 @@ h2 {
     display: flex;
     width: 100%;
     font-size: 1.75rem;
-    border: 0.25rem solid antiquewhite;
+    border: 0.25rem solid rgb(250, 235, 215);
     border-radius: 2%;
     background-color: rgb(107, 9, 9);
-    /*
-    justify-content: center;
-    */
     align-items: center;
     margin: 1rem auto;
 }
@@ -219,7 +187,7 @@ h2 {
 
 .choice-prefix {
     color: rgb(107, 9, 9);
-    background-color: antiquewhite;
+    background-color: rgb(250, 235, 215);
     border: 0.25rem solid rgb(78, 78, 78);
     border-radius: 50%;
     padding-inline: 1rem;
@@ -282,7 +250,7 @@ h2 {
     margin: 3rem auto;
     text-align: center;
     padding: 1.5rem 3rem;
-    border: 0.5rem solid antiquewhite;
+    border: 0.5rem solid rgb(250, 235, 215);
     background-color: rgb(78, 78, 78, 0.75);
     border-radius: 2%;
 }
@@ -298,8 +266,6 @@ h2 {
     border-radius: 2%;
     background-color: rgb(107, 9, 9);
     opacity: 0.75;
-    /*background-color: rgb(78, 78, 78, 0.75);*/
-    color: antiquewhite;
 }
 
 .end-page-results {
@@ -313,21 +279,15 @@ h2 {
     padding-top: 1rem;
 }
 
-/*.end-page-btn {
-    margin: 1rem auto;
-    padding: 0.5rem 1rem;
-    font-size: 1.5rem;
-}*/
 
 #saveScoreBtn {
     margin: 2rem auto;
     border-radius: 50%;
-    /*padding: 1rem 2rem;*/
     font-family: 'Fjalla One';
     font-size: 1rem;
-    color: antiquewhite;
+    color: rgb(250, 235, 215);
     background-color: rgb(107, 9, 9);
-    border: 0.25rem solid antiquewhite;
+    border: 0.25rem solid rgb(250, 235, 215);
 }
 
 #finalScore {
@@ -346,7 +306,6 @@ h2 {
     font-size: 1.5rem;
     font-family: 'Open Sans Condensed';
 }
-
 
 #highScoresList li {
     padding: 0.5rem;
@@ -392,18 +351,8 @@ h2 {
 
 /* Media queries */
 
-/* @media screen and (max-width: 768px) {
-    .page-container {
-        transform: scale(.8);
-    }
-} */
 
 @media screen and (max-width: 576px) {
-
-    /*#container {
-        max-height: 90%;
-        max-width: 90%;
-    }*/
 
     .title {
         font-size: 1.75rem;
@@ -438,10 +387,6 @@ h2 {
         transform: scale(.9);
     }
 
-    /* #modal-container {
-        transform: scale(0.7);
-    } */
-
     .page-container-home p {
         font-size: 1.25rem;
         padding: 0.5rem;
@@ -449,16 +394,20 @@ h2 {
 
 }
 
-
 @media screen and (max-width: 400px) {
     .page-container {
         transform: scale(.8);
     }
 }
 
-/* 
+@media screen and (max-width: 380px) {
+    .modal {
+        transform: scale(.9);
+    }
+}
+
 @media screen and (max-width: 320px) {
-    .page-container {
-        transform: scale(.5);
-    } */
+    .modal {
+        transform: scale(.7);
+    }
 }

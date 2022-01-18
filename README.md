@@ -103,8 +103,9 @@ All buttons on the site have a slight box-shadow effect when hovered over. This 
 
 ### How To Play
 
+The first button on the Homepage, once pressed, displays a pop-up with an explanation of the quiz.  
 
-The first button on the Homepage, once pressed, displays a pop-up with an explanation of the quiz.
+![How-to](assets/screenshots/how-to.png)
 
 ### Quiz Page
 

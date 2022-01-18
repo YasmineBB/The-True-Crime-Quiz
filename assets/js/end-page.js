@@ -24,10 +24,10 @@ saveHighScore = (e) => {
         background: 'rgb(78, 78, 78)',
         color: 'rgb(250, 235, 215)',
         showConfirmButton: false,
+        allowOutsideClick: false,
         timer: 3000
     });
 
-    console.log('You clicked the save button!');
     e.preventDefault();
 
     const score = {
