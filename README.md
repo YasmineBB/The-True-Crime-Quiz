@@ -315,4 +315,4 @@ The background image used on the site was taken from [Pexels](https://www.pexels
 
 ### Acknowledgements
 
-I would like to thank my mentor, Richard Wells, tutor support and the Slack community for their help received completing this project.
+I would like to thank my mentor, Richard Wells, tutor support and the Slack community for the help I received in completing this project.
