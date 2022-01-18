@@ -1,3 +1,6 @@
+/**
+ * Code taken from the Build a Quiz Playlist from James Q Quick. 
+ */
 const highScoresList = document.getElementById('highScoresList');
 const highScores = JSON.parse(localStorage.getItem('highScores')) || [];
 

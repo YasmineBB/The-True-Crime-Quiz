@@ -1,3 +1,7 @@
+/**
+ * Code taken from the Build a Quiz Playlist from James Q Quick. 
+ */
+
 const question = document.getElementById('question');
 const choices = Array.from(document.getElementsByClassName('choice-text'));
 const questionCounterText = document.getElementById('question-counter');

@@ -1,3 +1,7 @@
+/**
+ * Code taken from the Build a Quiz Playlist from James Q Quick. 
+ */
+
 const username = document.getElementById('username');
 const saveScoreBtn = document.getElementById('saveScoreBtn');
 const finalScore = document.getElementById('finalScore');
