@@ -4,13 +4,14 @@
 
 ## Introduction
 
-<!--True Crime. is a topic that, however dubious, is a fascinating world for many people.--> 
-Is it morbid fascination, simple human curiosity or is there something more to societies obsession with True Crime? <!--A morbid fascination? Simple human curiosity? Or is there something more....some sort of psychological reasoning ... to societies obsession with True Crime?--> Who knows, but the countless podcasts and YouTube channels, blog posts and documentaries dedicated to pretty much every case, theory and criminal shows we clearly can't get enough.
+Is it morbid fascination, simple human curiosity or is there something more to societies obsession with True Crime? Who knows, but the countless podcasts and YouTube channels, blog posts and documentaries dedicated to pretty much every case, theory and criminal shows we clearly can't get enough.
 And as this project may suggest, I too am a member of the weirdly obsessed with True Crime club. So I decided to build a quiz based on the topic for my second Portfolio Project with Code Institute!  
 
-The True Crime Quiz presents a selection of questions to test the user's knowledge and to hopefully impart something new to add to their True Crime knowledge bank. The top five scores are saved so the user can challenge themselves, friends or family to make it to the scoreboard.
+The True Crime Quiz presents a selection of questions to test the user's knowledge and to hopefully impart something new to add to their True Crime knowledge bank. The top five scores are saved, so the user can challenge themselves, friends or family to make it to the scoreboard.
 
 Anyone can take part in the quiz, however it is more so targeted to those who have a keen interest in the topic.
+
+Visit my site [here](https://yasminebb.github.io/The-True-Crime-Quiz/).
 
 ## Table of Contents
 
@@ -46,6 +47,7 @@ Anyone can take part in the quiz, however it is more so targeted to those who ha
     - [Technologies Used](#technologies-used)
     - [Content](#content)
     - [Media](#media)
+    - [Acknowledgements](#acknowledgements)
 
 ## User Experience  
 
@@ -93,27 +95,27 @@ There are of course many themes to use for the topic of True Crime, but I decide
 
 ### Home Page
 
-I designed a simple homepage with the title of the quiz, three buttons: How to Play, Start Quiz and High Scores. I have created a modal box that pops up when the button ‘How To Play’ is clicked on and explains the quiz to the user.
+I designed a simple homepage with the title of the quiz, three buttons: How to Play, Start Quiz and High Scores.  
 
 The simplicity aims to make it clean and unfussy to the user, giving them clear access to see the function of the page whilst giving all relevant information they will need, including where to start and how to play.
 
-All buttons on the site have a slight box-shadow effect when hovered over. This is more visible when viewed on desktop, however the effect still presents on mobile when the button is pressed.
+All buttons on the site have a slight box-shadow effect when hovered over. This is more visible when viewed on desktop, however, the effect still presents on mobile when the button is pressed.
 
 ![Hover on button](https://media.giphy.com/media/M7Jhkg3eWYuXw7KZzA/giphy.gif)
 
-### How To Play
+### How To Play  
 
-The first button on the Homepage, once pressed, displays a pop-up with an explanation of the quiz.  
+I have created a modal box that pops up when the button ‘How To Play’ is clicked on and explains the quiz to the user.
 
 ![How-to](assets/screenshots/how-to.png)
 
 ### Quiz Page
 
-Once pressing the 'Start Quiz' button, the user is taken to the first question where they are presented with a question and four potential answers. The page displays a question counter, showing how far they are in the quiz, as well as their current score. The questions are jumbled so each time the user plays or refreshes the page for example, a different set of order of the questions will present.
+Once pressing the 'Start Quiz' button, the user is taken to the first question of the quiz page where they are presented with the question and four potential answers to choose from. The page displays a question counter, showing how far they are in the quiz, as well as their current score. The questions are jumbled so each time the user plays the game, a different set of order of the questions will present.
 
 ![Start-quiz](assets/screenshots/start-quiz.png)
 
-I have implemented a Sweetalert pop-up which displays once the user has selected a choice, and displays a different message depending on whether the choice was 'correct' or 'incorrect'.
+I have implemented a SweetAlert pop-up which displays once the user has selected a choice, and displays a different message depending on whether the choice was 'correct' or 'incorrect'.
 
 Correct | Incorrect
  :--------: | :-----:
@@ -129,7 +131,7 @@ Once the user has saved their score a pop-up is displayed.
 
 ![Saved-score](assets/screenshots/score-saved.png)
 
-Links to social media sites are also displayed to encourage the user to share their score, a point mentioned in the How To Play pop-op on the Homepage. The top five scores are saved to local storage and can be accessed via the home screen by pressing the 'High Scores' button.
+Links to social media sites are also displayed to encourage the user to share their score, a point mentioned in the How To Play pop-up on the Homepage. The top five scores are saved to local storage and can be accessed via the home screen by pressing the 'High Scores' button.
 
 ### High Scores
 
@@ -141,9 +143,9 @@ As mentioned above, the user can access their High Scores from the Homepage wher
 
 Areas of development for this quiz include:  
 
-- I would like to implement different levels of ability, with questions matching each level: 'Amateur', 'Intermediate' and 'Expert'. The user would be able to pick a level they feel their current knowledge matches, play and have the ability to move up as they build their True Crime knowledge.
+- I would like to implement different levels of ability, with questions matching each level: 'Amateur', 'Intermediate' and 'Expert'. The user would be able to pick a level they feel their current knowledge matches, play that quiz, and can move up as they build their True Crime knowledge.
 
-- I would also like to implement a feature whereby after each question is answered, a fact is provided and if the answer was incorrect, the correct answer, with a fact, was shown on the screen.  
+- I would also like to implement a feature whereby after each question is answered, a fact is provided and if the answer was incorrect, the correct answer, with a fact, would be shown on the screen.  
 
 - Ideally in this quiz I would have liked to have created the option for the user to share their results automatically by clicking a button but wasn't able to make that happen at this stage, although this is a potential feature for the future.
 
@@ -169,7 +171,7 @@ Areas of development for this quiz include:
 
 - I want to play a quiz intuitively.  
 
-  - The layout and buttons are clear on each page. There is a timer for each question set to 2000 without the option to click out of the page. The user doesn't have to click any buttons except for the answers they are choosing, and can see where they are in the quiz and what their score stands at. This is to ensure a smooth transition throughout the quiz and until the final score page. <!--I debated implementing a button that takes the user back to the homepage but decided -->  
+  - The layout and buttons are clear on each page. There is a timer for each question set to 2000 without the option to click out of the page. The user doesn't have to click any buttons except for the answers they are choosing, and can see where they are in the quiz and what their score stands at. This is to ensure a smooth transition throughout the quiz and until the final score page. I debated implementing a button that takes the user back to the homepage from the quiz but decided it would be counterintuitive to a smooth experience of working through the quiz.
   
 - I want to have an insightful experience into the topic at hand, True Crime.  
 
@@ -180,7 +182,7 @@ Areas of development for this quiz include:
   - Once the game has been completed, the user is automatically taken to the end page where their score is displayed. The score itself is displayed in the 'Fjalla One' font which is bolder and makes it stand out.  
   
 - I want to have the option to share this quiz with friends.  
-  - The end page provides a link to several social media sites that, once clicked, will take the user to their dashboard where they can share their experience. Ideally I would have liked to create the option to share automatically and this is something I plan
+  - The end page provides a link to several social media sites that, once clicked, will take the user to their dashboard where they can share their experience. Ideally I would have liked to create the option to share automatically and this is something I plan on implementing in the future.
 
 **As a returning user:**  
 
@@ -190,9 +192,17 @@ Areas of development for this quiz include:
   
 ### Validator Testing
 
-- **HTML**
-- **CSS**
-- **JavaScript**
+HTML  
+
+- All HTML files were passed through the [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fyasminebb.github.io%2FThe-True-Crime-Quiz%2F), presenting no errors.  
+
+CSS  
+
+- The CSS file was passed though the [Jigsaw W3C Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fyasminebb.github.io%2FThe-True-Crime-Quiz%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en), presenting no errors.  
+  
+JavaScript  
+
+- All JavaScript files were passed through JSHint, presenting no errors.
 
 ### Mobile and Desktop Testing
 
@@ -202,13 +212,13 @@ To ensure the contrast of the colours used on the site meet Web Content Accessib
 
 ![Contrast checker](assets/screenshots/contrast-checker.png)
 
-Initially, I had picked different colours for the Sweetalert pop-ups, however, after testing these in a contrast checker, the background and foreground colours didn't adhere to WCAG standards.
+Initially, I had picked different colours for the SweetAlert pop-ups, however, after testing these in a contrast checker, the background and foreground colours didn't adhere to WCAG standards.
 
 ![Sweet alert pop up colour changes](assets/screenshots/Sweetalert-pop-up-colour-changes.png)
 
 The first half of this palette shows the colours I had initially used for the background and text of the incorrect and correct pop-ups respectively. The second half shows the shades they were changed to.
 
-Initially, I wanted to keep the text for both results the same colour. This, however, wouldnt have been possible if I were to stick with this shade of green, which signifies something to be 'correct' or 'true', it wouldn't have passed the contrast checker. However, after changing to a darker colour for the correct pop-up text, I believe it further adds to signify the contrast between the two results.
+Initially, I wanted to keep the text for both results the same colour. This, however, wouldn't have been possible if I were to stick with this shade of green, which signifies something to be 'correct' or 'true', it wouldn't have passed the contrast checker. However, after changing to a darker colour for the correct pop-up text, I believe it further adds to signify the contrast between the two results.
 
 #### Google Developer Tools - Lighthouse Testing  
 
@@ -260,9 +270,9 @@ In order to clone the project, the following steps are to be followed:
 
 ## Credits  
 
-Throughout the course of this project, I have used a wide range of online resources to help me understand JavaScript, as I have found it very challenging to grasp a strong comprehension of, and it has been a huge step up from CSS and HTML.
+I have found JavaScript to be very challenging to grasp a strong comprehension of, and it has been a huge step up from CSS and HTML. Throughout the course of this project, I have used a wide range of online resources to help me understand JavaScript and will continue to do so.
 
-I utilised the many resources available on Youtube to help build my understanding of JavaScript and to help build the quiz. In addition to the course content from Code Institute, I used resources such as Stack Overflow and the JavaScript module on Codecademy, using their run through projects to help improve my understanding.
+I utilised the many resources available on YouTube to help build my understanding of JavaScript and to help build the quiz. In addition to the course content from Code Institute, I used resources such as Stack Overflow and the JavaScript module on Codecademy, using their run through projects to help improve my understanding.
 
 ### Code
 
@@ -278,10 +288,11 @@ I utilised the many resources available on Youtube to help build my understandin
 - The colour scheme was generated using [Coolors](https://coolors.co/).
 - The Favicon created for the site was made on [Favicon](https://favicon.io/).
 - [Animate](https://animate.style/) library was used for some custom CSS animation styling.
-- Custom pop up boxes were sourced from [Sweetalert](https://sweetalert2.github.io/#custom-class).
+- Custom pop up boxes were sourced from [SweetAlert](https://sweetalert2.github.io/#custom-class).
 - Emojis used in the quiz were sourced from [Emojipedia](https://emojipedia.org/).
 - [Am I Responsive](http://ami.responsivedesign.is/?url=https%3A%2F%2Fyasminebb.github.io%2FThe-True-Crime-Quiz%2F) was used to visualise the responsiveness of the site on a select number of screen sizes.
 - [Colour Contrast Checker](https://colourcontrast.cc/33cc00/201d1d) was used to check the contrast of the colours used in the site against WCAG standards.
+- Social media icons were taken from [Font Awesome](https://fontawesome.com/).
 
 ### Content
 
@@ -301,3 +312,7 @@ To build the questions for this quiz I used my own general knowledge as well as 
 ### Media
 
 The background image used on the site was taken from [Pexels](https://www.pexels.com/photo/black-wooden-door-frame-745054/).
+
+### Acknowledgements
+
+I would like to thank my mentor, Richard Wells, tutor support and the Slack community for their help received completing this project.

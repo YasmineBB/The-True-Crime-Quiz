@@ -134,7 +134,7 @@ let questions = [{
         answer: 4
     },
 
-]
+];
 
 /**
  * Starts the game
@@ -145,7 +145,7 @@ function startGame() {
     score = 0;
     availableQuestions = questions;
     getNewQuestion();
-};
+}
 
 /**
  * Gets new question
@@ -174,7 +174,7 @@ function getNewQuestion() {
 
     acceptingAnswers = true;
 
-};
+}
 
 /**
  * Checks the selected answer and returns an alert
@@ -193,7 +193,7 @@ choices.forEach(choice => {
         selectedAnswer == currentQuestion.answer ? classToApply = 'correct' : classToApply = 'incorrect';
 
         if (classToApply === 'correct') {
-            incrementScore(correctCounter)
+            incrementScore(correctCounter);
             Swal.fire({
                 color: '#201d1d',
                 icon: 'success',
@@ -204,7 +204,7 @@ choices.forEach(choice => {
                 allowOutsideClick: false,
                 showConfirmButton: false
 
-            })
+            });
         } else if (classToApply === 'incorrect') {
             Swal.fire({
                 icon: 'error',
@@ -217,7 +217,7 @@ choices.forEach(choice => {
                 showConfirmButton: false
 
             });
-        };
+        }
 
         selectedChoice.parentElement.classList.add(classToApply);
 

@@ -1,22 +1,19 @@
 const username = document.getElementById('username');
 const saveScoreBtn = document.getElementById('saveScoreBtn');
 const finalScore = document.getElementById('finalScore');
-// To get most recent score
 const mostRecentScore = localStorage.getItem('mostRecentScore');
 
 const highScores = JSON.parse(localStorage.getItem('highScores')) || [];
 const maxHighScores = 5;
-console.log(highScores);
 
 finalScore.innerText = mostRecentScore;
 
 
 username.addEventListener('keyup', () => {
-    console.log(username.value);
     saveScoreBtn.disabled = !username.value;
 });
 
-saveHighScore = (e) => {
+const saveHighScore = (e) => {
 
     Swal.fire({
         icon: 'success',
